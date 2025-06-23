@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'IcoMoon';
+  src: url('../fonts/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('../fonts/fonnts.com-Suisse_Intl_Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('../fonts/fonnts.com-Suisse_Intl_Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('../fonts/fonnts.com-Suisse_Intl_Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SuisseIntlMono';
+  src: url('../fonts/fonnts.com-Suisse_Intl_Mono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('../fonts/fonnts.com-Suisse_Intl_Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('../fonts/fonnts.com-SuisseIntl-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
