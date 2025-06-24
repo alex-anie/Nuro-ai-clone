@@ -136,4 +136,90 @@ autonomy innovation.</p>
             </div>
         </aside>
     </section>
+
+    <!-- Latest at Nuro. -->
+    <section class="mt-18 hidden md:block">
+        <h1 class="text-4xl mb-10 pl-6" style="font-family: SuisseIntlMono; font-weight: 500;">Latest at Nuro.</h1>
+
+        <article class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <aside class="w-70 group transition-transform duration-200 ease">
+                <div class="size-70 rounded-3xl mb-2 overflow-hidden">
+                    <img class="w-full h-full rounded-3xl object-cover object-top-left transition-transform duration-200 ease group-hover:scale-[1.09]" src="/assets/images/home/nuro-series-e-large.jpg" alt="">
+                </div>
+                <div class="p-4">
+                    <span class="flex gap-x-4 justify-start items-center mb-2">
+                        <a href="" class="inline-block border py-2 px-4 rounded-full text-[10px]" style="font-family: SuisseIntlMono; font-weight: 200;">TechCrunch</a>
+                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">04.09.2025</span>
+                    </span>
+
+                    <span>
+                        <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Nuro’s $106M raise backs its shift from delivery robots to licensing autonomy tech</p>
+                    </span>
+                </div>
+            </aside>
+
+            <aside class="w-70 group transition-transform duration-200 ease">
+                <div class="size-70 rounded-3xl mb-2 overflow-hidden">
+                    <img 
+                        class="w-full h-full rounded-3xl object-cover object-top-left transition-transform duration-200 ease group-hover:scale-[1.09]" 
+                        src="/assets/images/home/nuro-taxi-palm-tree.png" 
+                        alt=""
+                        >
+                </div>
+                <div class="p-4">
+                    <span class="flex gap-x-4 justify-start items-center mb-4">
+                        <a href="" class="inline-block border py-2 px-4 rounded-full text-[10px]" style="font-family: SuisseIntlMono; font-weight: 200;">Blog</a>
+                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">05.22.2025</span>
+                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">6 min. read</span>
+                    </span>
+
+                    <span>
+                        <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Paving the Way for Autonomy in Dallas, Miami, and San Diego</p>
+                    </span>
+                </div>
+            </aside>
+
+            <aside class="w-70 group transition-transform duration-200 ease">
+                <div class="size-70 rounded-3xl mb-2 overflow-hidden">
+                    <img 
+                        class="w-full h-full rounded-3xl object-cover object-top-left transition-transform duration-200 ease group-hover:scale-[1.09]" 
+                        src="/assets/images/home/nuro-taxi-cs-palace.png" 
+                        alt=""
+                        >
+                </div>
+                <div class="p-4">
+                    <span class="flex gap-x-4 justify-start items-center mb-4">
+                        <a href="" class="inline-block border py-2 px-4 rounded-full text-[10px]" style="font-family: SuisseIntlMono; font-weight: 200;">Blog</a>
+                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">05.07.2025</span>
+                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">6 min. read</span>
+                    </span>
+
+                    <span>
+                        <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Driverless Insights Under Neon Lights: Testing in Las Vegas to Power Future Partner Deployments</p>
+                    </span>
+                </div>
+            </aside>
+
+            <aside class="w-70 group transition-transform duration-200 ease">
+                <div class="size-70 rounded-3xl mb-2 overflow-hidden">
+                    <img
+                        class="w-full h-full rounded-3xl object-cover object-top-left transition-transform duration-200 ease group-hover:scale-[1.09]" 
+                        src="/assets/images/home/nuro-japan.png" 
+                        alt=""
+                        >
+                </div>
+                <div class="p-4">
+                    <span class="flex gap-x-4 justify-start items-center mb-4">
+                        <a href="" class="inline-block border py-2 px-4 rounded-full text-[10px]" style="font-family: SuisseIntlMono; font-weight: 200;">Blog</a>
+                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">04.15.2025</span>
+                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">2 min. read</span>
+                    </span>
+
+                    <span>
+                        <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Going Global: Nuro is Heading to Japan</p>
+                    </span>
+                </div>
+            </aside>
+        </article>
+    </section>
 </main>
