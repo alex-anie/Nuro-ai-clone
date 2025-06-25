@@ -203,7 +203,7 @@ autonomy innovation.</p>
             <aside class="w-70 group transition-transform duration-200 ease">
                 <div class="size-70 rounded-3xl mb-2 overflow-hidden">
                     <img
-                        class="w-full h-full rounded-3xl object-cover object-top-left transition-transform duration-200 ease group-hover:scale-[1.09]" 
+                        class="w-full h-full rounded-3xl object-cover object-top-left transition-[transform] duration-500 ease group-hover:scale-[1.09]" 
                         src="/assets/images/home/nuro-japan.png" 
                         alt=""
                         >
@@ -217,6 +217,116 @@ autonomy innovation.</p>
 
                     <span>
                         <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Going Global: Nuro is Heading to Japan</p>
+                    </span>
+                </div>
+            </aside>
+        </article>
+    </section>
+
+    <!-- Explore more. -->
+     <section class="mt-18">
+        <h1 class="text-4xl mb-10 pl-6" style="font-family: SuisseIntl; font-weight: 500;">Explore more.</h1>
+
+        <article class="grid gap-5  grid-cols-8">
+            <aside class="w-full h-auto bg-amber-200 rounded-3xl p-4 col-span-8 lg:col-span-2">
+                <h1 class="text-2xl md:text-4xl [font-family:SuisseIntl] [font-weight:500]">Current Roles.</h1>
+                <p class="mt-4 text-sky-800 [font-family:SuisseIntlMono] [font-weight:200]">Careers</p>
+                <div class="my-8 border rounded-3xl">
+                    <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear  lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                        <span>Senior Software Engineer, Devices Platform</span>
+                    </a>
+                    <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                        <span>Software Engineer, Autonomy-New Grad</span>
+                    </a>
+                    <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                        <span href="">Senior Software Engineer, Machine Learning - Localization & Mapping</span>
+                    </a>
+                    <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                        <span>Senior Software Engineer, Performance</span>
+                    </a>
+                    <a href="" class=" text-xl h-20 flex items-center gap-x-3 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                        <span>Prototype Fabrication Engineer</span>
+                    </a>
+                </div>
+
+                <div>
+                    <a class="bg-neutral-900 text-white py-2 px-4 rounded-full inline-block mt-6 hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">View All</a>
+                </div>
+            </aside>
+
+            <aside class="relative w-full h-auto rounded-3xl col-span-8 lg:col-span-4">
+                <img class="w-full h-full rounded-3xl object-cover object-center" src="/assets/images/home/lady-with-sweater.png" alt="">
+                <div class="absolute top-6 left-5">
+                    <h1 class="w-[60%] text-white text-2xl md:text-4xl [font-family:SuisseIntl] [font-weight:500]">Driving the future of autonomy</h1>
+                    <p class="mt-4 text-white [font-family:SuisseIntlMono] [font-weight:200]">company</p>
+                </div>
+
+                <div class="absolute left-5 bottom-5">
+                    <a href="" class="bg-white text-black py-2 px-4 rounded-full inline-block hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">About Nuro</a>
+                </div>
+            </aside>
+
+            <aside class="relative rounded-3xl w-full bg-neutral-400 h-100 lg:h-auto p-6 col-span-4 lg:col-span-2">
+                <h1 class="text-xl md:text-3xl" style="font-family: SuisseIntl; font-weight: 200;">Learn about LAMBDA, Nuro’s Multimodal Large Language Model (MLLM) that performs question answering as part of the onboard autonomy stack.</h1>
+                <p class="mt-6 text-sky-800" style="font-family: SuisseIntlMono; font-weight: 200;">AI Research @ Nuro</p>
+                <div class="absolute left-5 bottom-5">
+                    <a href="" class="bg-black text-white py-2 px-4 rounded-full inline-block hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">Read Blog</a>
+                </div>
+            </aside>
+
+            <aside class="relative rounded-3xl w-full bg-black h-100 lg:h-auto p-6 col-span-4 lg:col-span-2">
+                <h1 class="text-white text-6xl md:text-7xl lg:text-8xl" style="font-family: SuisseIntlMono; font-weight: 200;">1M+</h1>
+                <p class="mt-6 text-sky-800" style="font-family: SuisseIntl; font-weight: 200;">Safety</p>
+
+                <div class="absolute left-5 bottom-5">
+                    <p class="w-[90%] text-xl md:text-3xl text-white " href="" style="font-family: SuisseIntl; font-weight: 200;">Autonomous miles driven with zero at-fault incidents.</p>
+                </div>
+            </aside>
+
+             <aside class="w-full bg-neutral-400 rounded-3xl p-5 col-span-8 lg:col-span-2">
+                <h1 class="text-2xl md:text-3xl [font-family:SuisseIntl] [font-weight:500]">Curious about safety?.</h1>
+                <p class="mt-4 text-sky-800 [font-family:SuisseIntlMono] [font-weight:200]">FAQ</p>
+                <div class="my-8 border rounded-3xl">
+                    <span class="border-b  h-20 flex items-center gap-x-3 group pl-4">
+                        <p>How does Nuro engage with the community regarding safety?</p>
+                    </span>
+                    <span class="border-b  h-20 flex items-center gap-x-3 group pl-4">
+                        <p>How does Nuro handle emergency situations?</p>
+                    </span>
+                    <span class=" h-20 flex items-center gap-x-3 group pl-4">
+                        <p>How does Nuro ensure the safety of its autonomous vehicles?</p>
+                    </span>
+                </div>
+
+                <div>
+                    <a href="/safety#faqs" class="bg-neutral-900 text-white py-2 px-4 rounded-full inline-block mt-6 hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">View All</a>
+                </div>
+            </aside>
+
+            <aside class="relative w-full h-90 lg:h-auto rounded-3xl col-span-8 lg:col-span-4">
+                <div class="absolute top-4 left-4">
+                    <h1 class="text-xl md:text-2xl lg:text-4xl text-white" style="font-family: SuisseIntl; font-weight: 200;">Narrow Work zone.</h1>
+                    <p class="text-white text-[12px] mt-6" style="font-family: SuisseIntlMono; font-weight: 200;">Nuro Driver™ Showcase</p>
+                </div>
+                <video autoplay preload loop muted playsinline class="h-full w-full rounded-3xl object-cover object-[50%_50%]">
+                    <source src="/assets/videos/narrow-work-zone.mp4" type="video/mp4"/>
+                </video>
+
+                <div class="absolute bottom-5 left-4">
+                    <span>
+                        <a href="/showcase" class="bg-white text-black py-2 px-4 rounded-full inline-block mt-6 hover:bg-sky-700 hover:text-white transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/showcase">See More</a>
+                    </span>
+
+                    <span>
+                        <button>
+                            <span class="mt-6 text-sky-800" style="font-family: SuisseIntlMono; font-weight: 200;">01</span>
+                            <div></div>
+                        </button>
                     </span>
                 </div>
             </aside>
