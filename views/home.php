@@ -234,23 +234,23 @@ autonomy innovation.</p>
                 <div class="my-8 border rounded-3xl">
                     <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear  lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span>Senior Software Engineer, Devices Platform</span>
+                        <span style="font-family: SuisseIntl; font-weight: 200;">Senior Software Engineer, Devices Platform</span>
                     </a>
                     <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span>Software Engineer, Autonomy-New Grad</span>
+                        <span style="font-family: SuisseIntl; font-weight: 200;">Software Engineer, Autonomy-New Grad</span>
                     </a>
                     <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span href="">Senior Software Engineer, Machine Learning - Localization & Mapping</span>
+                        <span style="font-family: SuisseIntl; font-weight: 200;">Senior Software Engineer, Machine Learning - Localization & Mapping</span>
                     </a>
                     <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span>Senior Software Engineer, Performance</span>
+                        <span style="font-family: SuisseIntl; font-weight: 200;">Senior Software Engineer, Performance</span>
                     </a>
                     <a href="" class=" text-xl h-20 flex items-center gap-x-3 group">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span>Prototype Fabrication Engineer</span>
+                        <span style="font-family: SuisseIntl; font-weight: 200;">Prototype Fabrication Engineer</span>
                     </a>
                 </div>
 
@@ -333,3 +333,7 @@ autonomy innovation.</p>
         </article>
     </section>
 </main>
+
+<section class="mt-18">
+    <?php require('partials/footer.php') ?>
+</section>
