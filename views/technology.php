@@ -212,98 +212,12 @@
         </aside>
     </section>
 
-    <!-- Latest at Nuro. -->
-    <section class="mt-18 hidden md:block">
-        <h1 class="text-4xl mb-10 pl-6" style="font-family: SuisseIntlMono; font-weight: 500;">Latest at Nuro.</h1>
-
-        <article class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            <aside class="w-70 group transition-transform duration-200 ease">
-                <div class="size-70 rounded-3xl mb-2 overflow-hidden">
-                    <img class="w-full h-full rounded-3xl object-cover object-top-left transition-transform duration-200 ease group-hover:scale-[1.09]" src="/assets/images/home/nuro-series-e-large.jpg" alt="">
-                </div>
-                <div class="p-4">
-                    <span class="flex gap-x-4 justify-start items-center mb-2">
-                        <a href="" class="inline-block border py-2 px-4 rounded-full text-[10px]" style="font-family: SuisseIntlMono; font-weight: 200;">TechCrunch</a>
-                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">04.09.2025</span>
-                    </span>
-
-                    <span>
-                        <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Nuro’s $106M raise backs its shift from delivery robots to licensing autonomy tech</p>
-                    </span>
-                </div>
-            </aside>
-
-            <aside class="w-70 group transition-transform duration-200 ease">
-                <div class="size-70 rounded-3xl mb-2 overflow-hidden">
-                    <img 
-                        class="w-full h-full rounded-3xl object-cover object-top-left transition-transform duration-200 ease group-hover:scale-[1.09]" 
-                        src="/assets/images/home/nuro-taxi-palm-tree.png" 
-                        alt=""
-                        >
-                </div>
-                <div class="p-4">
-                    <span class="flex gap-x-4 justify-start items-center mb-4">
-                        <a href="" class="inline-block border py-2 px-4 rounded-full text-[10px]" style="font-family: SuisseIntlMono; font-weight: 200;">Blog</a>
-                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">05.22.2025</span>
-                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">6 min. read</span>
-                    </span>
-
-                    <span>
-                        <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Paving the Way for Autonomy in Dallas, Miami, and San Diego</p>
-                    </span>
-                </div>
-            </aside>
-
-            <aside class="w-70 group transition-transform duration-200 ease">
-                <div class="size-70 rounded-3xl mb-2 overflow-hidden">
-                    <img 
-                        class="w-full h-full rounded-3xl object-cover object-top-left transition-transform duration-200 ease group-hover:scale-[1.09]" 
-                        src="/assets/images/home/nuro-taxi-cs-palace.png" 
-                        alt=""
-                        >
-                </div>
-                <div class="p-4">
-                    <span class="flex gap-x-4 justify-start items-center mb-4">
-                        <a href="" class="inline-block border py-2 px-4 rounded-full text-[10px]" style="font-family: SuisseIntlMono; font-weight: 200;">Blog</a>
-                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">05.07.2025</span>
-                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">6 min. read</span>
-                    </span>
-
-                    <span>
-                        <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Driverless Insights Under Neon Lights: Testing in Las Vegas to Power Future Partner Deployments</p>
-                    </span>
-                </div>
-            </aside>
-
-            <aside class="w-70 group transition-transform duration-200 ease">
-                <div class="size-70 rounded-3xl mb-2 overflow-hidden">
-                    <img
-                        class="w-full h-full rounded-3xl object-cover object-top-left transition-[transform] duration-500 ease group-hover:scale-[1.09]" 
-                        src="/assets/images/home/nuro-japan.png" 
-                        alt=""
-                        >
-                </div>
-                <div class="p-4">
-                    <span class="flex gap-x-4 justify-start items-center mb-4">
-                        <a href="" class="inline-block border py-2 px-4 rounded-full text-[10px]" style="font-family: SuisseIntlMono; font-weight: 200;">Blog</a>
-                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">04.15.2025</span>
-                        <span class="text-[10px]" style="font-family: SuisseIntlMono; font-weight: 500;">2 min. read</span>
-                    </span>
-
-                    <span>
-                        <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Going Global: Nuro is Heading to Japan</p>
-                    </span>
-                </div>
-            </aside>
-        </article>
-    </section>
-
     <!-- Explore more. -->
      <section class="mt-18">
-        <h1 class="text-4xl mb-10 pl-6" style="font-family: SuisseIntl; font-weight: 500;">Explore more.</h1>
+        <h1 class="text-white text-4xl mb-10 pl-6" style="font-family: SuisseIntl; font-weight: 500;">Explore more.</h1>
 
         <article class="grid gap-5  grid-cols-8">
-            <aside class="w-full h-auto bg-amber-200 rounded-3xl p-4 col-span-8 lg:col-span-2">
+            <aside class="w-full h-auto bg-amber-100 rounded-3xl p-4 col-span-8 lg:col-span-2">
                 <h1 class="text-2xl md:text-4xl [font-family:SuisseIntl] [font-weight:500]">Current Roles.</h1>
                 <p class="mt-4 text-sky-800 [font-family:SuisseIntlMono] [font-weight:200]">Careers</p>
                 <div class="my-8 border rounded-3xl">
@@ -330,40 +244,41 @@
                 </div>
 
                 <div>
-                    <a class="bg-neutral-900 text-white py-2 px-4 rounded-full inline-block mt-6 hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">View All</a>
+                    <a class="bg-neutral-900 text-white py-2 px-4 rounded-full inline-block mt-6 hover:bg-sky-700 transition-colors" href="/careers" style="font-family: SuisseIntl; font-weight: 200;">View All</a>
                 </div>
             </aside>
 
             <aside class="relative w-full h-auto rounded-3xl col-span-8 lg:col-span-4">
-                <img class="w-full h-full rounded-3xl object-cover object-center" src="/assets/images/home/lady-with-sweater.png" alt="">
+                <img class="w-full h-full rounded-3xl object-cover object-center" src="/assets/images/technology/man-woman-dog.png" alt="">
                 <div class="absolute top-6 left-5">
-                    <h1 class="w-[60%] text-white text-2xl md:text-4xl [font-family:SuisseIntl] [font-weight:500]">Driving the future of autonomy</h1>
-                    <p class="mt-4 text-white [font-family:SuisseIntlMono] [font-weight:200]">company</p>
+                    <h1 class="w-[60%] text-white text-2xl md:text-4xl [font-family:SuisseIntl] [font-weight:500]">Join Nuro in redefining the future of mobility.</h1>
+                    <p class="mt-4 text-white [font-family:SuisseIntlMono] [font-weight:200]">careers</p>
                 </div>
 
                 <div class="absolute left-5 bottom-5">
-                    <a href="" class="bg-white text-black py-2 px-4 rounded-full inline-block hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">About Nuro</a>
+                    <a href="/careers" class="bg-white text-black py-2 px-4 rounded-full inline-block hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">Learn More</a>
                 </div>
             </aside>
 
-            <aside class="relative rounded-3xl w-full bg-neutral-400 h-100 lg:h-auto p-6 col-span-4 lg:col-span-2">
-                <h1 class="text-xl md:text-3xl" style="font-family: SuisseIntl; font-weight: 200;">Learn about LAMBDA, Nuro’s Multimodal Large Language Model (MLLM) that performs question answering as part of the onboard autonomy stack.</h1>
-                <p class="mt-6 text-sky-800" style="font-family: SuisseIntlMono; font-weight: 200;">AI Research @ Nuro</p>
-                <div class="absolute left-5 bottom-5">
-                    <a href="" class="bg-black text-white py-2 px-4 rounded-full inline-block hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">Read Blog</a>
-                </div>
-            </aside>
-
-            <aside class="relative rounded-3xl w-full bg-black h-100 lg:h-auto p-6 col-span-4 lg:col-span-2">
-                <h1 class="text-white text-6xl md:text-7xl lg:text-8xl" style="font-family: SuisseIntlMono; font-weight: 200;">1M+</h1>
-                <p class="mt-6 text-sky-800" style="font-family: SuisseIntl; font-weight: 200;">Safety</p>
+            <aside class="relative rounded-3xl w-full bg-neutral-200 h-100 lg:h-auto p-6 col-span-4 lg:col-span-2">
+                <h1 class="text-black text-6xl md:text-7xl lg:text-8xl" style="font-family: SuisseIntlMono; font-weight: 200;">4+</h1>
+                <p class="mt-6 text-sky-800" style="font-family: SuisseIntl; font-weight: 200;">Technology</p>
 
                 <div class="absolute left-5 bottom-5">
-                    <p class="w-[90%] text-xl md:text-3xl text-white " href="" style="font-family: SuisseIntl; font-weight: 200;">Autonomous miles driven with zero at-fault incidents.</p>
+                    <p class="w-[90%] text-xl md:text-3xl text-black" href="" style="font-family: SuisseIntl; font-weight: 200;">Years of fully driverless deployments.</p>
                 </div>
             </aside>
 
-             <aside class="w-full bg-neutral-400 rounded-3xl p-5 col-span-8 lg:col-span-2">
+            <aside class="relative rounded-3xl w-full bg-blue-500 h-100 lg:h-auto p-6 col-span-4 lg:col-span-2">
+                <h1 class="text-white text-xl md:text-3xl" style="font-family: SuisseIntl; font-weight: 200;">
+                    Learn about how Nuro is approaching HD mapping that scales</h1>
+                <p class="mt-6 text-sky-100" style="font-family: SuisseIntlMono; font-weight: 200;">AI Research @ Nuro</p>
+                <div class="absolute left-5 bottom-5">
+                    <a href="/exploring-hd-mapping-that-scale" class="bg-black text-white py-2 px-4 rounded-full inline-block hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;">Read Blog</a>
+                </div>
+            </aside>
+
+            <aside class="w-full bg-neutral-200 rounded-3xl p-5 col-span-8 lg:col-span-2">
                 <h1 class="text-2xl md:text-3xl [font-family:SuisseIntl] [font-weight:500]">Curious about safety?.</h1>
                 <p class="mt-4 text-sky-800 [font-family:SuisseIntlMono] [font-weight:200]">FAQ</p>
                 <div class="my-8 border rounded-3xl">
