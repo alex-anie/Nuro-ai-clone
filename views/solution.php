@@ -100,63 +100,64 @@
         </article>
     </section>
 
-    <!-- Nuro's Autonomous Driving system -->
-     <section class="mt-18">
-        <h1 
-        class="text-white text-4xl lg:text-5xl w-full md:w-[60%]"
-        style="
-        font-family: SuisseIntl;
-        font-weight: 500;
-        ">
-            Nuro's Autonomous Driving system.
-        </h1>
+    <!-- Futureproof your vehicles -->
+    <section>
+        <div class="p-6">
+                    <p class="text-white text-2xl md:text-4xl mt-3 w-[70%] md:w-[30%]" style="font-family: SuisseIntl; font-weight: 500;">Futureproof your vehicles with two tiers of Nuro Driver™</p>
+                    
+                    <p class="mt-4 text-neutral-400 text-xl w-[90%] md:w-[50%]" style="font-family: SuisseIntl; font-weight: 200;">
+                        Since its inception, Nuro Driver has been built for Level 4. It navigates the full spectrum of autonomy without the compromises of incremental upgrades from Level 2, delivering a smarter, seamless path to the future of mobility.
+                    </p>
+                </div>
+    </section>
 
+    <!-- Nuro's Driver -->
+     <section class="mt-18">
         <section>
             <article class="grid lg:grid-cols-2 gap-8 lg:gap-y-0 mt-12 md:w-full">
-                <aside>
+                <aside class="hidden md:block">
                     <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
-                        <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/technology/desing-scale-nuro-car.png" alt="nuro car passenger-mobility">
-                    
-
-                    <button class="group hover:bg-sky-600 flex gap-x-4 justify-between items-center absolute bottom-8 left-6 border border-sky-600 rounded-xl py-2 px-3" style="transition: background 0.5s linear">
-                            <span class="text-sky-600 group-hover:text-white" style="font-family: SuisseIntlMono; font-weight: 200;">See the components</span>
-                            <svg class="size-[18px] rounded-full border border-sky-600 stroke-sky-600 group-hover:stroke-white group-hover:border-white" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                        </button>
-                    </div>
-
-                    <div class="p-6">
-                        <p class="text-white text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">The Nuro Driver™</p>
-                        
-                        <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
-                        In-vehicle software and hardware to enable automated driving functionality.
-                        </p>
-                    </div>
-
-                    <div class="pl-6 pt-2">
-                        <a class="bg-white text-black py-2 px-4 rounded-full inline-block hover:text-white hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/nuro-driver">Learn More</a>
+                        <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/solution/car-with-ring-dark-face-south.png" alt="nuro car passenger-mobility">
                     </div>
                 </aside>
 
-                <aside>
-                    <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
-                        <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/technology/Nuro-AI-Platform_NuroSensorVehicle.png" alt="nuro car passenger-mobility">
-                    
-                    <button class="group hover:bg-sky-600 flex gap-x-4 justify-between items-center absolute bottom-8 left-6 border border-sky-600 rounded-xl py-2 px-3" style="transition: background 0.5s linear">
-                            <span class="text-sky-600 group-hover:text-white" style="font-family: SuisseIntlMono; font-weight: 200;">See the components</span>
-                            <svg class="size-[18px] rounded-full border border-sky-600 stroke-sky-600 group-hover:stroke-white group-hover:border-white" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                    </button>
+                <aside class="">
+                    <div class="">
+                        <button class="flex w-full justify-between py-4 cursor-pointer border-t-1 border-t-neutral-700">
+                            <span class="text-white text-xl md:text-2xl" style="font-family: SuisseIntl; font-weight: 500;">Nuro Driver™ L4</span>
+                            <span class="text-white text-xl md:text-2xl border border-white py-1 px-5 rounded-2xl" style="font-family: SuisseIntlMono; font-weight: 500;">01</span>
+                        </button>
                     </div>
 
-                    <div class="p-6">
-                        <p class="text-white text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">The Nuro AI Platform™</p>
-                        
-                        <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
-                        Industry-leading autonomy developer tools, infrastructure, and remote monitoring.
-                        </p>
+                    <div>
+                        <h1 class="text-sky-600" style="font-family: SuisseIntlMono; font-weight: 500;">Fully Autonomous</h1>
+
+                        <p class="my-4 text-neutral-400 text-xl" style="font-family: SuisseIntl; font-weight: 200;">Our flagship self-driving system enables safe, reliable autonomous operation on any vehicle platform, navigating urban roads with natural driving behavior.</p>
+
+                        <ul class="list-disc pl-10">
+                            <li class="my-4 text-neutral-400 text-xl" style="font-family: SuisseIntl; font-weight: 200;">Fully self-driving: no human driver required</li>
+
+                            <li class="my-4 text-neutral-400 text-xl" style="font-family: SuisseIntl; font-weight: 200;">Sensor configuration: Camera-Radar-Lidar</li>
+
+                            <li class="my-4 text-neutral-400 text-xl" style="font-family: SuisseIntl; font-weight: 200;">Fully autonomous on urban roads, available 24/7</li>
+
+                            <li class="my-4 text-neutral-400 text-xl" style="font-family: SuisseIntl; font-weight: 200;">Comprehensive teleoperations monitoring and control suite</li>
+
+                            <li class="my-4 text-neutral-400 text-xl" style="font-family: SuisseIntl; font-weight: 200;">Validated for safety and proven on-road</li>
+                        </ul>
+
+                        <div class="block mb-4 md:hidden">
+                                <div class="relative w-[60%] h-60 rounded-3xl">
+                                    <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/solution/car-with-ring-dark-face-south.png" alt="nuro car passenger-mobility">
+                                </div>
+                        </div>
                     </div>
 
-                    <div class="pl-6 pt-2">
-                        <a class="bg-white text-black py-2 px-4 rounded-full inline-block hover:text-white hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/nuro-ai-platform">Learn More</a>
+                     <div class="">
+                        <button class="flex w-full justify-between py-4 cursor-pointer border-y-1 border-y-neutral-700">
+                            <span class="text-white text-xl md:text-2xl" style="font-family: SuisseIntl; font-weight: 500;">Nuro Driver™ Assist L2++</span>
+                            <span class="text-white text-xl md:text-2xl border border-white py-1 px-5 rounded-2xl" style="font-family: SuisseIntlMono; font-weight: 500;">01</span>
+                        </button>
                     </div>
                 </aside>
             
