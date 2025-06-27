@@ -14,6 +14,10 @@ elseif($url === '/solution' || $url === '/solutions')
     {
     require 'views/solution.php';
     } 
+elseif($url === '/company' || $url === '/companies')
+    {
+    require 'views/company.php';
+    } 
 else 
     {
     require 'includes/404.php';
