@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,12 @@
     <link href="/css/main.css" rel="stylesheet">
     <title>Nuro - Autonomy for all. All roads, all rides. | Nuro</title>
   </head>
-  <body>
+  <style>
+      html {
+        scroll-behavior: smooth;
+      }
+  </style>
+  <body class="scroll-smooth">
       <?php require('../router.php'); ?>
   </body>
 </html>

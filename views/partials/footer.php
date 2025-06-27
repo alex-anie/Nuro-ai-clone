@@ -74,7 +74,7 @@
                 </label>
 
                 <div class="relative mt-4 w-full h-15 border border-neutral-600 rounded-full focus-within:border-white focus-within:bg-neutral-700" style="transition: background 0.2s linear;">
-                    <input class="w-[80%] h-full border-0 outline-0 text-white text-xl px-4 bg-transparent transition-colors duration-200 ease-in" type="text" name="footer-submit" type="E-mail" id="footer-submit" style="font-family: SuisseIntl; font-weight: 200;">
+                    <input class="w-[80%] h-full border-0 outline-0 text-white text-xl px-4 bg-transparent transition-colors duration-200 ease-in" placeholder="E-mail" type="text" name="footer-submit" type="E-mail" id="footer-submit" style="font-family: SuisseIntl; font-weight: 200;">
                     <button class="cursor-pointer absolute transition-colors top-2 right-4 py-2 px-4 bg-white rounded-full hover:bg-sky-800 hover:text-white" type="submit" style="font-family: SuisseIntl; font-weight: 200;">Submit</button>
                 </div>
 
