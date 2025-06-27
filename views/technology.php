@@ -181,15 +181,16 @@
      <section class="mt-8">
         <aside class="relative w-full rounded-3xl h-180">
             <picture>
-                <source media="(min-width: 1024px)" srcset="/assets/images/home/safety-man-large.png"  type="image/png"/>
+                <source media="(min-width: 1024px)" srcset="/assets/images/technology/fixing-helmet-man-large.png"  type="image/png"/>
 
-                <img class="h-full w-full rounded-3xl object-cover object-center" src="/assets/images/home/safety-man-small.png" alt="">
+                <img class="h-full w-full rounded-3xl object-cover object-center" src="/assets/images/technology/fixing-helmet-man-small.png" alt="">
             </picture>
             
-            <div class="absolute left-5 bottom-5 md:left-10 md:bottom-auto md:top-12 md:w-150">
-                <p class="text-white text-4xl md:text-5xl mb-4" style="font-family: SuisseIntl; font-weight: 500;">Safety at every turn.</p>
-                <p class="text-white" style="font-family: SuisseIntl; font-weight: 200;">Safety underpins every part of our company, from hardware and software to testing, systems engineering, and operations.</p>
-                <a class="bg-white text-black py-2 px-4 rounded-full inline-block mt-6 hover:text-white hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/safety">View Safety</a>
+            <div class="absolute left-5 bottom-5 md:w-150">
+                <p class="text-white text-4xl md:text-5xl mb-4" style="font-family: SuisseIntl; font-weight: 500;">Uncompromising safety from start to finish.</p>
+                <p class="text-white text-[12px]" style="font-family: SuisseIntlMono; font-weight: 200;">Safety</p>
+                <p class="text-white mt-3" style="font-family: SuisseIntl; font-weight: 200;">At Nuro, safety is integral to every stage of our autonomy development lifecycle. This focus is reflected in our safety record of more than 1 million autonomous miles without an at-fault incident.</p>
+                <a class="bg-white text-black py-2 px-4 rounded-full inline-block mt-6 hover:text-white hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/safety">Safety</a>
             </div>
         </aside>
      </section>
