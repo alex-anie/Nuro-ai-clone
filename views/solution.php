@@ -23,8 +23,8 @@
 
         <section class="">
             <aside class="absolute top-8 left-5 md:top-1/2 md:-translate-y-1/2">
-                <h1 class="text-white text-5xl w-[40%]" style="font-family: SuisseIntl; font-weight: 400;">Unlock industry-leading autonomy with Nuro Driver</h1>
-                <p class="text-white text-2xl mt-4 w-[40%]" style="font-family: SuisseIntl; font-weight: 200;">L2++ to L4 technology for automotive and mobility platforms.</p>
+                <h1 class="text-white text-4xl md:text-5xl w-[70%]" style="font-family: SuisseIntl; font-weight: 400;">Unlock industry-leading autonomy with Nuro Driver</h1>
+                <p class="text-white text-xl mt-4 w-[60%]" style="font-family: SuisseIntl; font-weight: 200;">L2++ to L4 technology for automotive and mobility platforms.</p>
                 <p class="text-white text-[12px] mt-4" style="font-family: SuisseIntlMono; font-weight: 200;">Solutions</p>
         </aside>
 
@@ -156,13 +156,118 @@
                      <div class="">
                         <button class="flex w-full justify-between py-4 cursor-pointer border-y-1 border-y-neutral-700">
                             <span class="text-white text-xl md:text-2xl" style="font-family: SuisseIntl; font-weight: 500;">Nuro Driver™ Assist L2++</span>
-                            <span class="text-white text-xl md:text-2xl border border-white py-1 px-5 rounded-2xl" style="font-family: SuisseIntlMono; font-weight: 500;">01</span>
+                            <span class="text-white text-xl md:text-2xl border border-white py-1 px-5 rounded-2xl" style="font-family: SuisseIntlMono; font-weight: 500;">02</span>
                         </button>
                     </div>
                 </aside>
             
         </article>
     </section>
+    </section>
+
+    <!-- Hero Animated text 2 -->
+    <section class="my-18">
+        <h1 class="text-4xl lg:text-5xl w-full md:w-[40%] bg-clip-text text-transparent animate-[spinConic_3s_ease-in-out_infinite_alternate]"
+        style="
+        font-family: SuisseIntl;
+        font-weight: 500;
+        background-image: conic-gradient(from 180deg, #0ea5e9, #d4d4d4, #0ea5e9);
+        background-size: 1000% 1000%;
+        background-position: center;
+    ">
+          Take control of your autonomy roadmap.
+        </h1>
+    </section>
+
+    <!-- Multi Text Sections -->
+    <section class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <aside>
+            <div class="w-18 text-white py-2">
+                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
+            </div>
+            <div>
+                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Scalable online mapping technology</h1>
+                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Built on our in-house geographic foundation model, delivering high-precision identification of road signs, crosswalks, lane restrictions, and right-of-way.
+                </p>
+            </div>
+        </aside>
+
+        <aside>
+            <div class="w-18 text-white py-2">
+                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
+            </div>
+            <div>
+                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Early multi-sensor fusion-based perception</h1>
+                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Robust across varying sensor types (camera, radar, lidar) and configurations, and can perform across a broad range of weather conditions.
+                </p>
+            </div>
+        </aside>
+
+        <aside>
+            <div class="w-18 text-white py-2">
+                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
+            </div>
+            <div>
+                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Language-aligned behavior world model</h1>
+                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Generates human-like driving decisions coupled with natural language reasoning.
+                </p>
+            </div>
+        </aside>
+
+        <aside>
+            <div class="w-18 text-white py-2">
+                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
+            </div>
+            <div>
+                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Surface-street driving mastery</h1>
+                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Responds to traffic control devices and handles unprotected turns, automated lane changes, end-of-route pullovers, construction zones, and more.
+                </p>
+            </div>
+        </aside>
+
+        <aside>
+            <div class="w-18 text-white py-2">
+                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
+            </div>
+            <div>
+                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Ramp-to-ramp highway automation</h1>
+                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Handles ramp meter detection, seamless merging, automated or driver-initiated lane changes, responsive lane following, reliable exits, safe construction navigation, HOV avoidance, fallback modes, and more.
+                </p>
+            </div>
+        </aside>
+
+        <aside>
+            <div class="w-18 text-white py-2">
+                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
+            </div>
+            <div>
+                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Unparalleled parking flexibility</h1>
+                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Parks and unparks efficiently in forward, reverse, or parallel across a diversity of marked and unmarked parking spaces.
+                </p>
+            </div>
+        </aside>
+
+        <aside>
+            <div class="w-18 text-white py-2">
+                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
+            </div>
+            <div>
+                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Confident, safe, and human-like</h1>
+                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Can be customized to fit individual driver needs and delivers a comfortable human-like driving experience on every ride.
+                </p>
+            </div>
+        </aside>
+
+        <aside>
+            <div class="w-18 text-white py-2">
+                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
+            </div>
+            <div>
+                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Adaptable AI system</h1>
+                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Our AI foundation models allow us to add new sensors and adapt to new geographies without having to reengineer the system.
+                </p>
+            </div>
+        </aside>
     </section>
 
     <!-- Safety at every turn section -->
@@ -183,7 +288,7 @@
         </aside>
      </section>
 
-      <!-- Bring your vehicles up to speed. section -->
+     <!-- Bring your vehicles up to speed. section -->
      <section class="mt-18">
         <aside class="relative w-full rounded-3xl h-180 ">
             <picture>
