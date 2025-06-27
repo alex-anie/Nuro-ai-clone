@@ -23,10 +23,7 @@
 
         <section class="">
             <aside class="absolute top-8 left-5 md:top-1/2 md:-translate-y-1/2">
-                <h1 class="text-white text-5xl w-[40%]" style="font-family: SuisseIntl; font-weight: 400;">Unlock
-industry-leading
-autonomy with
-Nuro Driver</h1>
+                <h1 class="text-white text-5xl w-[40%]" style="font-family: SuisseIntl; font-weight: 400;">Unlock industry-leading autonomy with Nuro Driver</h1>
                 <p class="text-white text-2xl mt-4 w-[40%]" style="font-family: SuisseIntl; font-weight: 200;">L2++ to L4 technology for automotive and mobility platforms.</p>
                 <p class="text-white text-[12px] mt-4" style="font-family: SuisseIntlMono; font-weight: 200;">Solutions</p>
         </aside>
@@ -69,68 +66,37 @@ Nuro Driver</h1>
 
     <!-- Explore Solution Section -->
     <section>
-        <article class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-x-8 lg:gap-y-0 mt-12 md:w-full">
+        <article class="grid md:grid-cols-2 gap-y-8 gap-x-8  mt-12 md:w-full">
             <aside>
                 <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
-                    <video autoplay preload loop muted playsinline class="h-full w-full rounded-3xl object-cover object-[50%_50%]">
-                        <source src="/assets/videos/R2-On-road_L_compressed_2.mp4" type="video/mp4"/>
-                    </video>
-
-                    <a href="/showcase" class="group hover:bg-sky-600 flex gap-x-4 justify-between items-center absolute bottom-8 left-6 border border-sky-600 rounded-xl py-2 px-3" style="transition: background 0.5s linear">
-                        <span class="text-sky-600 group-hover:text-white" style="font-family: SuisseIntlMono; font-weight: 200;">See our Autonomy Showcase</span>
-                        <svg class="size-[18px] rounded-full border border-sky-600 stroke-sky-600 group-hover:stroke-white group-hover:border-white" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                    </a>
+                    <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/solution/bus-mini-dark.png" alt="nuro car passenger-mobility">
                 </div>
                 <div class="p-6">
-                    <p class="text-white text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Proven driverless deployments</p>
+                    <p class="text-white text-2xl md:text-4xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Commercial Mobility</p>
+
+                    <p class="text-sky-600 mt-3" style="font-family: SuisseIntlMono; font-weight: 200;">SAE Level 4</p>
                     
-                    <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">The Nuro Driver™ is the one of the only Driverless autonomous technologies in the world that is on roads today-- successfully deployed across three different US state since 2020
+                    <p class="text-neutral-400 mt-4" style="font-family: SuisseIntl; font-weight: 200;">
+                        Nuro's proven L4 autonomous system is road-tested and versatile, adapting to both passenger and goods delivery applications. This advanced system not only reduces operational costs but also has the potential to expand mobility demand, offering a dual advantage for mobility services.
                     </p>
                 </div>
             </aside>
 
             <aside>
                 <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
-                    <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/technology/desing-scale-nuro-car.png" alt="nuro car passenger-mobility">
+                    <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/solution/car-with-ring-dark.png" alt="nuro car passenger-mobility">
                 </div>
                 <div class="p-6">
-                    <p class="text-white text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Designed to scale</p>
+                    <p class="text-white text-2xl md:text-4xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Automotive</p>
+
+                    <p class="text-sky-600 mt-3" style="font-family: SuisseIntlMono; font-weight: 200;">SAE Level 2 to Level 4</p>
                     
-                    <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
-                        Built with cost-efficient, automotive-grade components, our AI-first system is engineered to be adaptable across various vehicle platforms.
+                    <p class="mt-4 text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
+                    With extensive experience in autonomous vehicle development and deployment, Nuro enables a seamless progression from L2 to L4 capability for consumer vehicles. Our collaborative approach and proven technology support companies through their autonomy roadmap, ensuring safety, reliability, and scalability.
+
                     </p>
                 </div>
             </aside>
-
-            <aside>
-                <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
-                    <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/technology/safety-first-man.png" alt="nuro car passenger-mobility">
-                </div>
-                <div class="p-6">
-                    <p class="text-white text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Safety-first approach</p>
-                    
-                    <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
-                       Designed with safety at its core through redundant systems and rigorous validation, including traditional system checks on our AI system and a backup parallel autonomy stack.
-                    </p>
-                </div>
-            </aside>
-        </article>
-
-        <article>
-            <button class="cursor-pointer">
-                <span style="font-family: SuisseIntlMono; font-weight: 200;" class="text-white text-[12px]">01</span>
-                <div class="h-[1px] w-8 bg-white"></div>
-            </button>
-
-            <button class="cursor-pointer">
-                <span style="font-family: SuisseIntlMono; font-weight: 200;" class="text-neutral-600 text-[12px]">02</span>
-                <div class="h-[1px] w-8 bg-neutral-600"></div>
-            </button>
-
-            <button class="cursor-pointer">
-                <span style="font-family: SuisseIntlMono; font-weight: 200;" class="text-neutral-600 text-[12px]">03</span>
-                <div class="h-[1px] w-8 bg-neutral-600"></div>
-            </button>
         </article>
     </section>
 
