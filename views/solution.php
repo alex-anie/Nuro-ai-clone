@@ -1,3 +1,37 @@
+<?php 
+    $multiText = [
+        "1" => ["title" => "Scalable online mapping technology", "description" => "Built on our in-house geographic foundation model, delivering high-precision identification of road signs, crosswalks, lane restrictions, and right-of-way."],
+
+        "2" => ["title" => "Early multi-sensor fusion-based perception", "description" => "Robust across varying sensor types (camera, radar, lidar) and configurations, and can perform across a broad range of weather conditions."],
+
+        "3" => ["title" => "Language-aligned behavior world model", "description" => "Generates human-like driving decisions coupled with natural language reasoning."],
+
+        "4" => ["title" => "Surface-street driving mastery", "description" => "Responds to traffic control devices and handles unprotected turns, automated lane changes, end-of-route pullovers, construction zones, and more."],
+
+        "5" => ["title" => "Ramp-to-ramp highway automation", "description" => "Handles ramp meter detection, seamless merging, automated or driver-initiated lane changes, responsive lane following, reliable exits, safe construction navigation, HOV avoidance, fallback modes, and more."],
+
+        "6" => ["title" => "Unparalleled parking flexibility", "description" => "Parks and unparks efficiently in forward, reverse, or parallel across a diversity of marked and unmarked parking spaces."],
+
+        "7" => ["title" => "Confident, safe, and human-like", "description" => "Can be customized to fit individual driver needs and delivers a comfortable human-like driving experience on every ride."],
+
+        "8" => ["title" => "Adaptable AI system", "description" => "Our AI foundation models allow us to add new sensors and adapt to new geographies without having to reengineer the system."]
+    ];
+
+    $multiText2 = [
+        "1" => ["title" => "Proven on the Road", "description" => "With over a million driverless miles and zero at-fault incidents, Nuro Driver has proven its dependability through years of real-world deployment."],
+        
+        "2" => ["title" => "Validated for Safety", "description" => "Our rigorous approach—combining advanced simulations, closed-course validation, and supervised real-world testing—conforms to industry best practices, including ISO 26262 and UL 4600."],
+
+        "3" => ["title" => "Highly Customizable & Supported", "description" => "Hands-on guidance, flexible partnership models, and direct AV stack access let you integrate exactly what you need, supported by our advanced AI and premium tooling."],
+
+        "4" => ["title" => "Cost-Effective", "description" => "Automotive-grade components and next-gen compute minimize complexity and power usage at a fraction of typical L4 costs."],
+
+        "5" => ["title" => "Platform-Agnostic", "description" => "Integration From personal cars to robotaxis, Nuro’s AI foundation, modular hardware, and distributed sensors adapt to any vehicle platform."],
+
+        "6" => ["title" => "Accelerated Time to Market", "description" => "With a streamlined integration roadmap, flexible manufacturing options, and a proven deployment framework, our customers can plan with confidence and launch on schedule."]
+    ];
+?>
+
 <style>
     @keyframes spinConic {
     0% {
@@ -181,239 +215,75 @@
 
     <!-- Multi Text Sections -->
     <section class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-        <aside>
-            <div class="w-18 text-white py-2">
-                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
-            </div>
-            <div>
-                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Scalable online mapping technology</h1>
-                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Built on our in-house geographic foundation model, delivering high-precision identification of road signs, crosswalks, lane restrictions, and right-of-way.
-                </p>
-            </div>
-        </aside>
-
-        <aside>
-            <div class="w-18 text-white py-2">
-                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
-            </div>
-            <div>
-                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Early multi-sensor fusion-based perception</h1>
-                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Robust across varying sensor types (camera, radar, lidar) and configurations, and can perform across a broad range of weather conditions.
-                </p>
-            </div>
-        </aside>
-
-        <aside>
-            <div class="w-18 text-white py-2">
-                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
-            </div>
-            <div>
-                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Language-aligned behavior world model</h1>
-                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Generates human-like driving decisions coupled with natural language reasoning.
-                </p>
-            </div>
-        </aside>
-
-        <aside>
-            <div class="w-18 text-white py-2">
-                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
-            </div>
-            <div>
-                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Surface-street driving mastery</h1>
-                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Responds to traffic control devices and handles unprotected turns, automated lane changes, end-of-route pullovers, construction zones, and more.
-                </p>
-            </div>
-        </aside>
-
-        <aside>
-            <div class="w-18 text-white py-2">
-                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
-            </div>
-            <div>
-                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Ramp-to-ramp highway automation</h1>
-                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Handles ramp meter detection, seamless merging, automated or driver-initiated lane changes, responsive lane following, reliable exits, safe construction navigation, HOV avoidance, fallback modes, and more.
-                </p>
-            </div>
-        </aside>
-
-        <aside>
-            <div class="w-18 text-white py-2">
-                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
-            </div>
-            <div>
-                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Unparalleled parking flexibility</h1>
-                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Parks and unparks efficiently in forward, reverse, or parallel across a diversity of marked and unmarked parking spaces.
-                </p>
-            </div>
-        </aside>
-
-        <aside>
-            <div class="w-18 text-white py-2">
-                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
-            </div>
-            <div>
-                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Confident, safe, and human-like</h1>
-                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Can be customized to fit individual driver needs and delivers a comfortable human-like driving experience on every ride.
-                </p>
-            </div>
-        </aside>
-
-        <aside>
-            <div class="w-18 text-white py-2">
-                <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
-            </div>
-            <div>
-                <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;">Adaptable AI system</h1>
-                <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;">Our AI foundation models allow us to add new sensors and adapt to new geographies without having to reengineer the system.
-                </p>
-            </div>
-        </aside>
+        <?php foreach($multiText as $text): ?>
+            <aside>
+                <div class="w-18 text-white py-2">
+                    <img class="w-full" src="/assets/svg/checkmark.svg" alt="checkmark" />
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-3xl text-white" style="font-family: SuisseIntl; font-weight: 500;"><?= $text['title']?></h1>
+                    <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;"><?= $text['description'] ?></p>
+                </div>
+            </aside>
+        <?php endforeach; ?>
     </section>
 
-    <!-- Safety at every turn section -->
-     <section class="mt-8">
-        <aside class="relative w-full rounded-3xl h-180">
-            <picture>
-                <source media="(min-width: 1024px)" srcset="/assets/images/technology/fixing-helmet-man-large.png"  type="image/png"/>
+    <!-- Hero Animated text 3 -->
+    <section class="my-18">
+        <h1 class="text-4xl lg:text-5xl w-full md:w-[40%] bg-clip-text text-transparent animate-[spinConic_3s_ease-in-out_infinite_alternate]"
+        style="
+        font-family: SuisseIntl;
+        font-weight: 500;
+        background-image: conic-gradient(from 180deg, #0ea5e9, #d4d4d4, #0ea5e9);
+        background-size: 1000% 1000%;
+        background-position: center;
+    ">
+          Choose the intelligent path to autonomy.
+        </h1>
+    </section>
 
-                <img class="h-full w-full rounded-3xl object-cover object-center" src="/assets/images/technology/fixing-helmet-man-small.png" alt="">
-            </picture>
-            
-            <div class="absolute left-5 bottom-5 md:w-150">
-                <p class="text-white text-4xl md:text-5xl mb-4" style="font-family: SuisseIntl; font-weight: 500;">Uncompromising safety from start to finish.</p>
-                <p class="text-white text-[12px]" style="font-family: SuisseIntlMono; font-weight: 200;">Safety</p>
-                <p class="text-white mt-3" style="font-family: SuisseIntl; font-weight: 200;">At Nuro, safety is integral to every stage of our autonomy development lifecycle. This focus is reflected in our safety record of more than 1 million autonomous miles without an at-fault incident.</p>
-                <a class="bg-white text-black py-2 px-4 rounded-full inline-block mt-6 hover:text-white hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/safety">Safety</a>
-            </div>
-        </aside>
-     </section>
+    <!-- Multi text 3 -->
+    <section class="grid gap-4 md:gap-x-8 md:grid-cols-2 lg:grid-cols-3">
+        <?php foreach($multiText2 as $key => $text): ?>
+        <aside>
+                <div>
+                    <h1 class="text-xl md:text-2xl text-white" style="font-family: SuisseIntl; font-weight: 500;"><?= $text['title']?></h1>
+                    <span class="text-sky-600 text-[12px]" style="font-family: SuisseIntlMono; font-weight: 200;">0<?= $key?></span>
+                    <p class="my-4 text-neutral-400 md:text-xl" style="font-family: SuisseIntl; font-weight: 200;"><?= $text['description'] ?></p>
+                </div>
+            </aside>
+            <?php endforeach; ?>
+    </section>
+
+     <!-- Hero Animated text 4 -->
+    <section class="my-18">
+        <h1 class="text-4xl lg:text-5xl w-full md:w-[40%] bg-clip-text text-transparent animate-[spinConic_3s_ease-in-out_infinite_alternate]"
+        style="
+        font-family: SuisseIntl;
+        font-weight: 500;
+        background-image: conic-gradient(from 180deg, #0ea5e9, #d4d4d4, #0ea5e9);
+        background-size: 1000% 1000%;
+        background-position: center;
+    ">
+        The magic of autonomy is here.
+        </h1>
+    </section>
 
      <!-- Bring your vehicles up to speed. section -->
      <section class="mt-18">
-        <aside class="relative w-full rounded-3xl h-180 ">
+        <aside class="relative w-full rounded-3xl h-180 md:h-120">
             <picture>
                 <source media="(min-width: 1024px)" srcset="/assets/images/technology/contact-nuro-dark-large.png"  type="image/png"/>
 
                 <img class="h-full w-full rounded-3xl object-cover object-center" src="/assets/images/technology/contact-nuro-dark-small.png" alt="">
             </picture>
             
-            <div class="absolute left-5 bottom-5 md:left-10 md:bottom-auto md:top-12 w-[70%] md:w-150">
+            <div class="absolute left-5 bottom-5 w-[70%] md:w-150">
                 <p class="text-white text-4xl md:text-5xl mb-4" style="font-family: SuisseIntl; font-weight: 500;">Bring your vehicles up to speed.</p>
                 <p class="text-white" style="font-family: SuisseIntl; font-weight: 200;">Empower your fleet with AI-first autonomous capabilities.</p>
                 <a class="bg-white text-black py-2 px-4 rounded-full inline-block mt-6 hover:text-white hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/contact">Contact Nuro</a>
             </div>
         </aside>
-    </section>
-
-    <!-- Explore more. -->
-     <section class="mt-18">
-        <h1 class="text-white text-4xl mb-10 pl-6" style="font-family: SuisseIntl; font-weight: 500;">Explore more.</h1>
-
-        <article class="grid gap-5  grid-cols-8">
-            <aside class="w-full h-auto bg-amber-100 rounded-3xl p-4 col-span-8 lg:col-span-2">
-                <h1 class="text-2xl md:text-4xl [font-family:SuisseIntl] [font-weight:500]">Current Roles.</h1>
-                <p class="mt-4 text-sky-800 [font-family:SuisseIntlMono] [font-weight:200]">Careers</p>
-                <div class="my-8 border rounded-3xl">
-                    <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear  lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span style="font-family: SuisseIntl; font-weight: 200;">Senior Software Engineer, Devices Platform</span>
-                    </a>
-                    <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span style="font-family: SuisseIntl; font-weight: 200;">Software Engineer, Autonomy-New Grad</span>
-                    </a>
-                    <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span style="font-family: SuisseIntl; font-weight: 200;">Senior Software Engineer, Machine Learning - Localization & Mapping</span>
-                    </a>
-                    <a href="" class="border-b text-xl h-20 flex items-center gap-x-3 group">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span style="font-family: SuisseIntl; font-weight: 200;">Senior Software Engineer, Performance</span>
-                    </a>
-                    <a href="" class=" text-xl h-20 flex items-center gap-x-3 group">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span style="font-family: SuisseIntl; font-weight: 200;">Prototype Fabrication Engineer</span>
-                    </a>
-                </div>
-
-                <div>
-                    <a class="bg-neutral-900 text-white py-2 px-4 rounded-full inline-block mt-6 hover:bg-sky-700 transition-colors" href="/careers" style="font-family: SuisseIntl; font-weight: 200;">View All</a>
-                </div>
-            </aside>
-
-            <aside class="relative w-full h-auto rounded-3xl col-span-8 lg:col-span-4">
-                <img class="w-full h-full rounded-3xl object-cover object-center" src="/assets/images/technology/man-woman-dog.png" alt="">
-                <div class="absolute top-6 left-5">
-                    <h1 class="w-[60%] text-white text-2xl md:text-4xl [font-family:SuisseIntl] [font-weight:500]">Join Nuro in redefining the future of mobility.</h1>
-                    <p class="mt-4 text-white [font-family:SuisseIntlMono] [font-weight:200]">careers</p>
-                </div>
-
-                <div class="absolute left-5 bottom-5">
-                    <a href="/careers" class="bg-white text-black py-2 px-4 rounded-full inline-block hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">Learn More</a>
-                </div>
-            </aside>
-
-            <aside class="relative rounded-3xl w-full bg-neutral-200 h-100 lg:h-auto p-6 col-span-4 lg:col-span-2">
-                <h1 class="text-black text-6xl md:text-7xl lg:text-8xl" style="font-family: SuisseIntlMono; font-weight: 200;">4+</h1>
-                <p class="mt-6 text-sky-800" style="font-family: SuisseIntl; font-weight: 200;">Technology</p>
-
-                <div class="absolute left-5 bottom-5">
-                    <p class="w-[90%] text-xl md:text-3xl text-black" href="" style="font-family: SuisseIntl; font-weight: 200;">Years of fully driverless deployments.</p>
-                </div>
-            </aside>
-
-            <aside class="relative rounded-3xl w-full bg-blue-500 h-100 lg:h-auto p-6 col-span-4 lg:col-span-2">
-                <h1 class="text-white text-xl md:text-3xl" style="font-family: SuisseIntl; font-weight: 200;">
-                    Learn about how Nuro is approaching HD mapping that scales</h1>
-                <p class="mt-6 text-sky-100" style="font-family: SuisseIntlMono; font-weight: 200;">AI Research @ Nuro</p>
-                <div class="absolute left-5 bottom-5">
-                    <a href="/exploring-hd-mapping-that-scale" class="bg-black text-white py-2 px-4 rounded-full inline-block hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;">Read Blog</a>
-                </div>
-            </aside>
-
-            <aside class="w-full bg-neutral-200 rounded-3xl p-5 col-span-8 lg:col-span-2">
-                <h1 class="text-2xl md:text-3xl [font-family:SuisseIntl] [font-weight:500]">Curious about safety?.</h1>
-                <p class="mt-4 text-sky-800 [font-family:SuisseIntlMono] [font-weight:200]">FAQ</p>
-                <div class="my-8 border rounded-3xl">
-                    <span class="border-b  h-20 flex items-center gap-x-3 group pl-4">
-                        <p>How does Nuro engage with the community regarding safety?</p>
-                    </span>
-                    <span class="border-b  h-20 flex items-center gap-x-3 group pl-4">
-                        <p>How does Nuro handle emergency situations?</p>
-                    </span>
-                    <span class=" h-20 flex items-center gap-x-3 group pl-4">
-                        <p>How does Nuro ensure the safety of its autonomous vehicles?</p>
-                    </span>
-                </div>
-
-                <div>
-                    <a href="/safety#faqs" class="bg-neutral-900 text-white py-2 px-4 rounded-full inline-block mt-6 hover:bg-sky-700 transition-colors" href="" style="font-family: SuisseIntl; font-weight: 200;">View All</a>
-                </div>
-            </aside>
-
-            <aside class="relative w-full h-90 lg:h-auto rounded-3xl col-span-8 lg:col-span-4">
-                <div class="absolute top-4 left-4">
-                    <h1 class="text-xl md:text-2xl lg:text-4xl text-white" style="font-family: SuisseIntl; font-weight: 200;">Narrow Work zone.</h1>
-                    <p class="text-white text-[12px] mt-6" style="font-family: SuisseIntlMono; font-weight: 200;">Nuro Driver™ Showcase</p>
-                </div>
-                <video autoplay preload loop muted playsinline class="h-full w-full rounded-3xl object-cover object-[50%_50%]">
-                    <source src="/assets/videos/narrow-work-zone.mp4" type="video/mp4"/>
-                </video>
-
-                <div class="absolute bottom-5 left-4">
-                    <span>
-                        <a href="/showcase" class="bg-white text-black py-2 px-4 rounded-full inline-block mt-6 hover:bg-sky-700 hover:text-white transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/showcase">See More</a>
-                    </span>
-
-                    <span>
-                        <button>
-                            <span class="mt-6 text-sky-800" style="font-family: SuisseIntlMono; font-weight: 200;">01</span>
-                            <div></div>
-                        </button>
-                    </span>
-                </div>
-            </aside>
-        </article>
     </section>
 </main>
 
