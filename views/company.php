@@ -6,20 +6,20 @@
 
     <!-- Hero section -->
     <section class="relative h-170 w-full md:h-160 rounded-3xl">
-         <picture>
+        <picture>
                 <source media="(min-width: 1024px)" srcset="/assets/images/company/company-girl-large.png"  type="image/png"/>
-
                 <img class="h-full w-full rounded-3xl object-cover object-center" src="/assets/images/company/company-girl-small.png" alt="">
-            </picture>
+        </picture>
 
         <section class="">
             <aside class="absolute top-4 left-5 md:top-1/2 md:-translate-y-1/2">
-                <h1 class="text-white text-5xl" style="font-family: SuisseIntl; font-weight: 400;">Company </h1>
+                <h1 class="text-white text-5xl" style="font-family: SuisseIntl; font-weight: 400;">Company</h1>
 
                 <p class="text-white  mt-4" style="font-family: SuisseIntlMono; font-weight: 200;">Nuro’s Mountain View Headquarters
             </p>
-        </aside>
+            </aside>
         </section>
+
     </section>
 
     <!-- Hero Text -->
@@ -72,31 +72,50 @@
      <section class="mt-8">
         <aside class="relative w-full rounded-3xl h-180">
             <picture>
-                <source media="(min-width: 1024px)" srcset="/assets/images/home/safety-man-large.png"  type="image/png"/>
+                <source media="(min-width: 1024px)" srcset="/assets/images/company/sitting-on-a-desk-two.png"  type="image/png"/>
 
-                <img class="h-full w-full rounded-3xl object-cover object-center" src="/assets/images/home/safety-man-small.png" alt="">
+                <img class="h-full w-full rounded-3xl object-cover object-center" src="/assets/images/company/sitting-on-a-desk.png" alt="">
             </picture>
             
-            <div class="absolute left-5 bottom-5 md:left-10 md:bottom-auto md:top-12 md:w-150">
-                <p class="text-white text-4xl md:text-5xl mb-4" style="font-family: SuisseIntl; font-weight: 500;">Safety at every turn.</p>
-                <p class="text-white" style="font-family: SuisseIntl; font-weight: 200;">Safety underpins every part of our company, from hardware and software to testing, systems engineering, and operations.</p>
-                <a class="bg-white text-black py-2 px-4 rounded-full inline-block mt-6 hover:text-white hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/safety">View Safety</a>
+            <div class="absolute bottom-6 left-4 bg-gray-700/25 backdrop-blur-3xl rounded-3xl p-6 w-[90%] lg:w-[60%]">
+                <p class="text-white text-xl md:text-2xl" style="font-family: SuisseIntl; font-weight: 200;">Nuro’s vision for an autonomous future.</p>
+                <div class="lg:mt-2 lg:flex justify-between">
+                    <p class="text-white text-[12px]" style="font-family: SuisseIntlMono; font-weight: 200;">Founder's roundable.</p>
+                    <p class="text-neutral-400 text-[10px] hidden lg:block" style="font-family: SuisseIntlMono; font-weight: 200;">01:44</p>
+                </div>
+
+                <button class="relative lg:absolute flex cursor-pointer mt-2 lg:top-2 lg:right-4">
+                    <svg width="15" height="15" class="border border-white size-6 rounded-full text-white hover:bg-white hover:text-black relative z-10 transition-colors" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 11L6 4L10.5 7.5L6 11Z" fill="currentColor"></path>
+                    </svg>
+                </button>
             </div>
         </aside>
      </section>
+
+     <!-- Building a better tomorrow -->
+    <section class="mt-10 flex flex-col-reverse lg:flex-row flex-wrap w-full items-center">
+        <aside class="lg:w-[50%]">
+            <h1 class="text-2xl md:text-4xl px-6" style="font-family: SuisseIntl; font-weight: 300;">Building a better tomorrow.</h1>
+            <p class="text-[12px] text-sky-950 my-4 px-6" style="font-family: SuisseIntlMono; font-weight: 200;">Vision</p>
+            <p class="text-neutral-700 px-6" style="font-family: SuisseIntl; font-weight: 200;">At Nuro, we are committed to a future where robotics positively impacts everyday life. Our work in autonomous driving technology is just the foundation of a broader initiative to extend the benefits of robotics to a wider range of applications in the physical world. By leveraging the AI infrastructure and advanced tooling we are developing, we aim to unlock new possibilities for robotics across various physical domains—a concept we call Artificial General Robotics (AGR). While our first application focuses on delivering safe, reliable, and scalable autonomous driving solutions, we see a future where AGR could enhance everyday living, from smart home robots to more efficient urban mobility systems, further transforming how people live, move, and interact with autonomous technology.</p>
+        </aside>
+
+        <aside class="w-full lg:w-[50%] rounded-3xl h-auto mb-6">
+            <img class="rounded-3xl" src="/assets/images/company/blond-woman.png" alt="">
+        </aside>
+    </section>
 
      <!-- 8 years of autonomy innovation. section -->
      <section class="mt-18">
         <aside class="relative w-full rounded-3xl h-180 md:h-100">
             <picture>
                 <source media="(min-width: 1024px)" srcset="/assets/images/home/nuro-series-e-large.jpg"  type="image/png"/>
-
                 <img class="h-full w-full rounded-3xl object-cover object-top" src="/assets/images/home/nuro-series-e-small.png" alt="">
             </picture>
             
             <div class="absolute left-5 bottom-5 md:left-10 md:bottom-auto md:top-12 md:w-150">
-                <p class="text-black text-4xl md:text-5xl mb-4" style="font-family: SuisseIntl; font-weight: 500;">8 years of
-autonomy innovation.</p>
+                <p class="text-black text-4xl md:text-5xl mb-4" style="font-family: SuisseIntl; font-weight: 500;">8 years of autonomy innovation.</p>
                 <p class="text-black" style="font-family: SuisseIntl; font-weight: 200;">The Nuro Driver™ has been deployed across seven vehicle platforms. We’ve refined our system on the road, using our fleet and partner platforms, such as passenger vehicles and long-haul trucks. This expertise is propelling us toward an even more innovative future, where our technology will transform the way goods and people move.</p>
                 <a class="bg-neutral-900 text-white py-2 px-4 rounded-full inline-block mt-6 hover:text-white hover:bg-sky-700 transition-colors" style="font-family: SuisseIntl; font-weight: 200;" href="/company">About Nuro</a>
             </div>
@@ -108,7 +127,6 @@ autonomy innovation.</p>
         <aside class="relative w-full rounded-3xl h-180 md:h-100">
             <picture>
                 <source media="(min-width: 1024px)" srcset="/assets/images/home/contact-nuro-large.png"  type="image/png"/>
-
                 <img class="h-full w-full rounded-3xl object-cover object-center" src="/assets/images/home/contact-nuro-small.png" alt="">
             </picture>
             

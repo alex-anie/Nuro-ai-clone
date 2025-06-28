@@ -138,7 +138,6 @@
     <section>
         <div class="p-6">
                     <p class="text-white text-2xl md:text-4xl mt-3 w-[70%] md:w-[30%]" style="font-family: SuisseIntl; font-weight: 500;">Futureproof your vehicles with two tiers of Nuro Driver™</p>
-                    
                     <p class="mt-4 text-neutral-400 text-xl w-[90%] md:w-[50%]" style="font-family: SuisseIntl; font-weight: 200;">
                         Since its inception, Nuro Driver has been built for Level 4. It navigates the full spectrum of autonomy without the compromises of incremental upgrades from Level 2, delivering a smarter, seamless path to the future of mobility.
                     </p>
