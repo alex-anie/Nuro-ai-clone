@@ -29,40 +29,41 @@
             </p>
     </section>
 
-    <!-- Explore Solution Section -->
+     <!-- Hero Text -->
+    <section class="mt-18">
+        <h1 class="text-black text-2xl md:text-5xl" style="font-family: SuisseIntl; font-weight: 400;">Nuro’s journey.</h1>
+    </section>
+
+    <!-- Explore company journey Solution Section -->
     <section>
-        <article class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-x-8 lg:gap-y-0 mt-12 md:w-full">
-            <aside class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
-                <p class="absolute top-8 left-4 text-white text-2xl" style="font-family: SuisseIntl; font-weight: 200;">Passenger Mobility.</p>
-                
-                <p class="absolute top-18 left-4 text-white text-[0.7em]" style="font-family: SuisseIntlMono; font-weight: 200;">Mobility Services</p>
-                <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/home/passenger-mobility.png" alt="nuro car passenger-mobility">
-            </aside>
-
-             <aside class="relative w-full rounded-3xl h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem]">
-                <p class="absolute top-8 left-4 text-white text-2xl" style="font-family: SuisseIntl; font-weight: 200;">Personally Owned Vehicles</p>
-                
-                <p class="absolute top-18 left-4 text-white text-[0.7em]" style="font-family: SuisseIntlMono; font-weight: 200;">Automotive</p>
-                
-                <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/home/personally-owned.png" alt="">
-            </aside>
+        <article>
             
-             <aside class="relative w-full rounded-3xl h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem]">
-                <p class="absolute top-8 left-4 text-white text-2xl" style="font-family: SuisseIntl; font-weight: 200;">Logistics</p>
-                <p class="absolute top-18 left-4 text-white text-[0.7em]" style="font-family: SuisseIntlMono; font-weight: 200;">Mobility Services</p>
-                
-                <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/home/logistics.png" alt="">
-            </aside>
         </article>
+    </section>
 
-        <article class="md:grid md:grid-cols-5">
-            <aside class="col-span-3">
-                <p class="text-3xl lg:text-4xl p-4" style="font-family: SuisseIntl; font-weight: 500;">Autonomy for mobility applications.</p>
+     <!-- Key Accomplishment -->
+    <section class="mt-18">
+        <h1 class="text-black text-2xl md:text-5xl" style="font-family: SuisseIntl; font-weight: 400;">Key Accomplishments.</h1>
+
+        <article class="grid gap-4 grid-cols-1 md:grid-cols-4">
+            <aside class="relative h-90 rounded-3xl">
+                <img src="/assets/images/home/nuro-series-e-large.jpg" alt="" class="object-cover object-center rounded-3xl h-full">
+                <p class="absolute top-6 left-6 text-2xl" style="font-family: SuisseIntl; font-weight: 400;">Nuro Driver™ applied across 7 vehicle platforms</p>
             </aside>
 
-            <aside class="col-span-2 p-4">
-                <p class="text-xl" style="font-family: SuisseIntl; font-weight: 200;">Nuro offers automotive companies and mobility platforms the opportunity to integrate our world-class autonomous technology—Nuro Driver™ Assist Level 2++ and Nuro Driver™ Level 4—across various vehicle applications.</p>
-                <a class="bg-neutral-900 text-white py-2 px-4 rounded-full inline-block mt-6 hover:bg-sky-700 transition-colors" href="/solutions" style="font-family: SuisseIntl; font-weight: 200;">Explore Solutions</a>
+            <aside class="relative bg-blue-800 h-90 rounded-3xl">
+                <h1 class="absolute top-4 left-4 text-5xl text-white" style="font-family: SuisseIntlMono; font-weight: 400;">1ST</h1>
+                <p  class="absolute bottom-4 left-4 text-white text-2xl" style="font-family: SuisseIntl; font-weight: 400;">AV to receive NHTSA-approved exemption.</p>
+            </aside>
+
+            <aside class="relative bg-black h-90 rounded-3xl">
+                <h1 class="absolute top-4 left-4 text-5xl text-white" style="font-family: SuisseIntlMono; font-weight: 400;">4+</h1>
+                <p  class="absolute bottom-4 left-4 text-white text-2xl" style="font-family: SuisseIntl; font-weight: 400;">Years of L4 autonomous driving on public roads.</p>
+            </aside>
+
+            <aside class="relative bg-amber-100 h-90 rounded-3xl">
+                <h1 class="absolute top-4 left-4 text-5xl text-black" style="font-family: SuisseIntlMono; font-weight: 400;">1M+</h1>
+                <p  class="absolute bottom-4 left-4 text-black text-2xl" style="font-family: SuisseIntl; font-weight: 400;">Autonomous miles driven with zero at-fault incidents.</p>
             </aside>
         </article>
     </section>
