@@ -89,7 +89,7 @@
                     <p class="text-white text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Safety-first approach</p>
                     
                     <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
-                       Designed with safety at its core through redundant systems and rigorous validation, including traditional system checks on our AI system and a backup parallel autonomy stack.
+                        Designed with safety at its core through redundant systems and rigorous validation, including traditional system checks on our AI system and a backup parallel autonomy stack.
                     </p>
                 </div>
             </aside>
@@ -114,7 +114,7 @@
     </section>
 
     <!-- Nuro's Autonomous Driving system -->
-     <section class="mt-18">
+    <section class="mt-18">
         <h1 
         class="text-white text-4xl lg:text-5xl w-full md:w-[60%]"
         style="

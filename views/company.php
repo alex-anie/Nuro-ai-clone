@@ -91,9 +91,9 @@
                 </button>
             </div>
         </aside>
-     </section>
+    </section>
 
-     <!-- Building a better tomorrow -->
+    <!-- Building a better tomorrow -->
     <section class="mt-10 flex flex-col-reverse lg:flex-row flex-wrap w-full items-center">
         <aside class="lg:w-[50%]">
             <h1 class="text-2xl md:text-4xl px-6" style="font-family: SuisseIntl; font-weight: 300;">Building a better tomorrow.</h1>
@@ -106,8 +106,128 @@
         </aside>
     </section>
 
-     <!-- 8 years of autonomy innovation. section -->
-     <section class="mt-18">
+    <!-- Our founders -->
+    <section class="mt-18">
+        <h1 
+        class="text-black text-2xl lg:text-4xl w-full md:w-[60%]"
+        style="
+        font-family: SuisseIntl;
+        font-weight: 500;
+        ">
+            Our founders.
+        </h1>
+
+        <section>
+            <article class="grid lg:grid-cols-2 gap-8 lg:gap-y-0 mt-12 md:w-full">
+                <aside>
+                    <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
+                        <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/company/Jiajun-Zhu.png" alt="nuro car passenger-mobility">
+
+                        <a href="https://www.linkedin.com/in/jiajun/" class="group hover:bg-sky-600 flex gap-x-4 justify-between items-center absolute bottom-8 left-6 border border-sky-600 rounded-xl py-2 px-3" style="transition: background 0.5s linear">
+                            <span class="text-sky-600 group-hover:text-white" style="font-family: SuisseIntlMono; font-weight: 200;">Follow on Linkedin</span>
+                            <svg class="size-[18px] rounded-full border border-sky-600 stroke-sky-600 group-hover:stroke-white group-hover:border-white" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+
+                    <div class="p-6">
+                        <p class="text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Jiajun Zhu</p>
+
+                        <p class="text-blue-800 text-[12px] my-3" style="font-family: SuisseIntl; font-weight: 200;">Co-Founder and CEO</p>
+                        
+                        <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
+                        Prior to founding Nuro, Jiajun was a principal software engineer at Google and one of the founding team members of the company’s self-driving program—now known as Waymo. In addition to leading the project’s perception team, he also helped build and lead their simulation efforts. Jiajun earned his Master’s and Bachelor’s degree in computer science from the University of Virginia and Fudan University respectively. Jiajun has been awarded over 100 patents.
+                        </p>
+                    </div>
+                </aside>
+
+                <aside>
+                    <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
+                        <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/company/dave-ferguson.png" alt="nuro car passenger-mobility">
+                    
+                    <a href="https://www.linkedin.com/in/dave-ferguson" class="group hover:bg-sky-600 flex gap-x-4 justify-between items-center absolute bottom-8 left-6 border border-sky-600 rounded-xl py-2 px-3" style="transition: background 0.5s linear">
+                            <span class="text-sky-600 group-hover:text-white" style="font-family: SuisseIntlMono; font-weight: 200;">Follow on Linkedin</span>
+                            <svg class="size-[18px] rounded-full border border-sky-600 stroke-sky-600 group-hover:stroke-white group-hover:border-white" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+
+                    <div class="p-6">
+                        <p class="text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Dave Ferguson</p>
+
+                        <p class="text-blue-800 text-[12px] my-3" style="font-family: SuisseIntl; font-weight: 200;">Co-Founder and President</p>
+                        
+                        <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
+                       Prior to founding Nuro, Dave was a principal engineer on Google’s self-driving program, now known as Waymo. He built and led the computer vision, machine learning, behavior prediction, and scene understanding teams. He also led the planning group for Carnegie Mellon University's team that won the DARPA Urban Grand Challenge in 2007. Dave holds an MS and PhD in Robotics from Carnegie Mellon and a Bachelor’s in CS and Mathematics from the University of Otago. Dave holds over 100 patents and has published over 60 academic papers.
+                        </p>
+                    </div>
+                    </div>
+                </aside>
+            
+        </article>
+    </section>
+    </section>
+
+    <!-- Company leadership. -->
+    <section class="mt-18">
+        <h1 
+        class="text-black text-2xl lg:text-4xl w-full md:w-[60%]"
+        style="
+        font-family: SuisseIntl;
+        font-weight: 500;
+        ">
+            Our founders.
+        </h1>
+
+        <section>
+            <article class="grid lg:grid-cols-2 gap-8 lg:gap-y-0 mt-12 md:w-full">
+                <aside>
+                    <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
+                        <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/company/Jiajun-Zhu.png" alt="nuro car passenger-mobility">
+
+                        <a href="https://www.linkedin.com/in/jiajun/" class="group hover:bg-sky-600 flex gap-x-4 justify-between items-center absolute bottom-8 left-6 border border-sky-600 rounded-xl py-2 px-3" style="transition: background 0.5s linear">
+                            <span class="text-sky-600 group-hover:text-white" style="font-family: SuisseIntlMono; font-weight: 200;">Follow on Linkedin</span>
+                            <svg class="size-[18px] rounded-full border border-sky-600 stroke-sky-600 group-hover:stroke-white group-hover:border-white" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+
+                    <div class="p-6">
+                        <p class="text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Jiajun Zhu</p>
+
+                        <p class="text-blue-800 text-[12px] my-3" style="font-family: SuisseIntl; font-weight: 200;">Co-Founder and CEO</p>
+                        
+                        <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
+                        Prior to founding Nuro, Jiajun was a principal software engineer at Google and one of the founding team members of the company’s self-driving program—now known as Waymo. In addition to leading the project’s perception team, he also helped build and lead their simulation efforts. Jiajun earned his Master’s and Bachelor’s degree in computer science from the University of Virginia and Fudan University respectively. Jiajun has been awarded over 100 patents.
+                        </p>
+                    </div>
+                </aside>
+
+                <aside>
+                    <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
+                        <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/company/dave-ferguson.png" alt="nuro car passenger-mobility">
+                    
+                    <a href="https://www.linkedin.com/in/dave-ferguson" class="group hover:bg-sky-600 flex gap-x-4 justify-between items-center absolute bottom-8 left-6 border border-sky-600 rounded-xl py-2 px-3" style="transition: background 0.5s linear">
+                            <span class="text-sky-600 group-hover:text-white" style="font-family: SuisseIntlMono; font-weight: 200;">Follow on Linkedin</span>
+                            <svg class="size-[18px] rounded-full border border-sky-600 stroke-sky-600 group-hover:stroke-white group-hover:border-white" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+
+                    <div class="p-6">
+                        <p class="text-2xl mt-3" style="font-family: SuisseIntl; font-weight: 200;">Dave Ferguson</p>
+
+                        <p class="text-blue-800 text-[12px] my-3" style="font-family: SuisseIntl; font-weight: 200;">Co-Founder and President</p>
+                        
+                        <p class="text-neutral-400" style="font-family: SuisseIntl; font-weight: 200;">
+                       Prior to founding Nuro, Dave was a principal engineer on Google’s self-driving program, now known as Waymo. He built and led the computer vision, machine learning, behavior prediction, and scene understanding teams. He also led the planning group for Carnegie Mellon University's team that won the DARPA Urban Grand Challenge in 2007. Dave holds an MS and PhD in Robotics from Carnegie Mellon and a Bachelor’s in CS and Mathematics from the University of Otago. Dave holds over 100 patents and has published over 60 academic papers.
+                        </p>
+                    </div>
+                    </div>
+                </aside>
+            
+        </article>
+    </section>
+    </section>
+
+    <!-- 8 years of autonomy innovation. section -->
+    <section class="mt-18">
         <aside class="relative w-full rounded-3xl h-180 md:h-100">
             <picture>
                 <source media="(min-width: 1024px)" srcset="/assets/images/home/nuro-series-e-large.jpg"  type="image/png"/>
