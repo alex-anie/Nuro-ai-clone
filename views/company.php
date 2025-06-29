@@ -214,7 +214,7 @@
                     </div>
                 </aside>
 
-                 <aside>
+                <aside>
                     <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
                         <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/company/Tilo-Schwarz.png" alt="nuro car passenger-mobility">
                     </div>
@@ -225,7 +225,7 @@
                     </div>
                 </aside>
 
-                 <aside>
+                <aside>
                     <div class="relative w-full h-160 md:h-[20rem] lg:h-[25rem] xl:h-[30rem] rounded-3xl">
                         <img class="h-full w-full rounded-3xl object-cover" src="/assets/images/company/matt-renna.png" alt="nuro car passenger-mobility">
                     </div>

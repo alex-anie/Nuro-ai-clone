@@ -40,7 +40,6 @@
 
             <div class="flex flex-col gap-3 mt-4 md:mt-0 pr-6 md:pr-2">
                 <p class="text-white" style="font-family: SuisseIntl; font-weight: 200;">Dave Ferguson on the future of Nuro.</p>
-                
                 <p class="text-white text-[0.7em]" style="font-family: SuisseIntlMono; font-weight: 200;">01:38</p>
             </div>
         </aside>

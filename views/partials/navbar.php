@@ -18,10 +18,10 @@
                         <a href="/company" class="md:text-white" style="font-family: SuisseIntl; font-weight: 300;">Company</a>
                     </li>
                     <li>
-                        <a href="/safety" class="md:text-white" style="font-family: SuisseIntl; font-weight: 300;">Safety</a>
+                        <a href="/blog" class="md:text-white" style="font-family: SuisseIntl; font-weight: 300;">Blog</a>
                     </li>
                     <li>
-                        <a href="/careers" class="md:text-white" style="font-family: SuisseIntl; font-weight: 300;">Careers</a>
+                        <a href="/dashboard" class="md:text-white" style="font-family: SuisseIntl; font-weight: 300;">Dashboard</a>
                     </li>
                 </ul>
             </aside>

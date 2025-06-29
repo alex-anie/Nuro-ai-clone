@@ -13,12 +13,17 @@ elseif($url === '/technology' || $url === '/technologies')
 elseif($url === '/solution' || $url === '/solutions')
     {
     require 'views/solution.php';
-    } 
+    }
+    
 elseif($url === '/company' || $url === '/companies')
     {
     require 'views/company.php';
-    } 
+    }
+elseif($url === '/blog' || $url === '/blogs')
+    {
+    require 'views/blog.php';
+    }
 else 
     {
     require 'includes/404.php';
-    }
+}
