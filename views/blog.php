@@ -115,11 +115,11 @@
 
         <section>
             <?php foreach($faq as $data): ?>
-                <aside class="relative border-t border-t-neutral-300 mx-10 my-10">
-                    <button class="my-10 w-[90%] lg:w-[70%] cursor-pointer group">
+                <aside class="relative border-t border-t-neutral-300 mx-10 mt-10">
+                    <button class="mt-10 w-[90%] lg:w-[70%] cursor-pointer group">
                         <p class="group-hover:text-sky-500 text-start select-none text-2xl text-neutral-700" style="font-family: SuisseIntl; font-weight: 500;"><?= $data['title']?></p>
                     </button>
-                    <div>
+                    <div class="hidden mt-5">
                         <p class="text-neutral-600 lg:w-[70%]" style="font-family: SuisseIntl; font-weight: 200;"><?= $data['description']?></p>
                     </div>
 
