@@ -14,6 +14,6 @@
       }
   </style>
   <body class="scroll-smooth">
-      <?php require('../router.php'); ?>
+      <?php require('../route.php'); ?>
   </body>
 </html>
