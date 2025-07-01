@@ -1,5 +1,5 @@
-<nav>
-    <section class="pt-10 w-60 h-screen bg-neutral-300">
+<nav class="">
+    <section class="pt-20   w-full h-screen bg-neutral-300">
         <!-- subscribes -->
         <aside class="">
             <a href="/dashboard/subscribes" class="flex gap-x-[10px] px-1 py-2 group hover:bg-sky-500">

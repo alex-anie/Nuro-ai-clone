@@ -21,7 +21,7 @@
                         <a href="/blog" class="md:text-white" style="font-family: SuisseIntl; font-weight: 300;">Blog</a>
                     </li>
                     <li>
-                        <a href="/dashboard" class="md:text-white" style="font-family: SuisseIntl; font-weight: 300;">Dashboard</a>
+                        <a href="/dashboard/subscribes" class="md:text-white" style="font-family: SuisseIntl; font-weight: 300;">Dashboard</a>
                     </li>
                 </ul>
             </aside>
