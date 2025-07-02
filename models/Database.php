@@ -1,10 +1,10 @@
 <?php 
 
 class Database {
-    private $pdo;
-    private $stmt;
-    function __construct($host = 'localhost', $db = 'nuroai', $user = 'root', $pass = '4444', $charset = 'utf8mb4'){
-        $dsn = "mysqli:host=$host;dbname=$$db,charset=$charset";
+    public $pdo;
+    public $stmt;
+    function __construct($host = 'localhost', $db = 'nuro', $user = 'root', $pass = '4444', $charset = 'utf8mb4'){
+        $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
         $options = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
@@ -20,19 +20,19 @@ class Database {
     }
 
     // Prepare and execute a query statement
-    function query(string $sql, array $params = []){
+   public function query(string $sql, array $params = []){
         $this->stmt = $this->pdo->prepare($sql);
         return $this->stmt->execute($params);
     }
 
     // Fetch all queries 
-    function fetchAll(string $sql, array $params = []){
+   public function fetchAll(string $sql, array $params = []){
         $this->query($sql, $params);
         return $this->stmt->fetchAll();
     }
 
     // fetch a single query 
-    function fetch(string $sql, array $params = []){
+   public function fetch(string $sql, array $params = []){
         $this->query($sql, $params);
         return $this->stmt->fetch();
     }

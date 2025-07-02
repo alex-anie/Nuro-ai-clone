@@ -13,5 +13,8 @@ router('/blog', 'views/blog.php');
 router('/dashboard/subscribes', 'views/dashboard/subscribe.php');
 router('/dashboard/blogs', 'views/dashboard/blogs.php');
 
+//Email
+router('/subscribed', 'controllers/footer-subscribe.php');
+
 // Resolve the current URL
 resolve();

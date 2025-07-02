@@ -1,3 +1,6 @@
+<?php require_once '../controllers/footer-subscribe.php' ?>
+
+
 <?php 
     $footerLinks = [
         "1" => [ "name" => "Technology", "path" => "/technology"],
@@ -68,13 +71,13 @@
         </aside>
 
         <aside class="mt-10 md:mt-0 col-span-3 md:col-span-1">
-            <form action="" method="post">
-                <label for="footer-submit" style="font-family: SuisseIntl; font-weight: 200;" class="text-white text-xl">
+            <form action="/subscribed" method="post">
+                <label for="email" style="font-family: SuisseIntl; font-weight: 200;" class="text-white text-xl">
                     Stay connected
                 </label>
 
                 <div class="relative mt-4 w-full h-15 border border-neutral-600 rounded-full focus-within:border-white focus-within:bg-neutral-700" style="transition: background 0.2s linear;">
-                    <input class="w-[80%] h-full border-0 outline-0 text-white text-xl px-4 bg-transparent transition-colors duration-200 ease-in" placeholder="E-mail" type="text" name="footer-submit" type="E-mail" id="footer-submit" style="font-family: SuisseIntl; font-weight: 200;">
+                    <input class="w-[80%] h-full border-0 outline-0 text-white text-xl px-4 bg-transparent transition-colors duration-200 ease-in" placeholder="E-mail" type="text" name="email" id="email" style="font-family: SuisseIntl; font-weight: 200;">
                     <button class="cursor-pointer absolute transition-colors top-2 right-4 py-2 px-4 bg-white rounded-full hover:bg-sky-800 hover:text-white" type="submit" style="font-family: SuisseIntl; font-weight: 200;">Submit</button>
                 </div>
 
@@ -92,12 +95,12 @@
                 <path d="m593.2 25.9c-34.5-34.5-90.4-34.5-124.9 0s-34.5 90.4 0 124.9 90.4 34.5 124.9 0 34.5-90.4 0-124.9zm-27 68.3-29.7 29.7c-10.9 10.9-29.4 11.9-41.4 0-11.4-11.4-11.4-29.9 0-41.4l29.7-29.7c11.4-11.4 29.9-11.4 41.4 0 11.4 11.5 11.4 30 0 41.4z"></path>
                 <path d="m434.3.1h-2.1c-44.8 0-76 31-76 75.4v97.1h46.3v-99c0-16.2 13.6-29.2 29.7-29.2h2.1z"></path>
             </svg>
-           </a>
+            </a>
         </aside>
         <aside class="col-span-6 mt-10 md:col-span-2 md:mt-0">
             <div class="flex justify-between md:justify-items-start md:gap-x-4">
                 <a class="text-white hover:text-sky-600" style="font-family: SuisseIntl; font-weight: 200;" href="/privacy-policy">  Privacy Policy </a>  
-            <a class="text-white hover:text-sky-600" href="/terms" style="font-family: SuisseIntl; font-weight: 200;">• Terms of Use </a> 
+            <a class="text-white hover:text-sky-600" href="/terms" style="font-family: SuisseIntl; font-weight: 200;"> • Terms of Use </a> 
             <a class="text-white hover:text-sky-600" href="/legal" style="font-family: SuisseIntl; font-weight: 200;"> •   Legal </a>
             </div>
         </aside>
