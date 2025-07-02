@@ -1,3 +1,5 @@
+<?php require_once '../controllers/get-subscribers.php'?>
+
 <main class="bg-neutral-50 px-10 pt-20 ">
     <section class="">
         <article>
@@ -7,7 +9,8 @@
             </div>
 
             <p class="text-neutral-500 text-xl mt-5" style="font-family: SuisseIntl;  font-weight: 200;">Total Subscribers</p>
-            <p class="mt-2 text-5xl" style="font-family: SuisseIntl;  font-weight: 500;">100,000</p>
+              <p class="mt-2 text-5xl" style="font-family: SuisseIntl;  font-weight: 500;"><?= number_format(count($subscribers))?>
+                </p>
     </aside>
     </article>
     </section>
@@ -16,9 +19,8 @@
     
     <h1 class="text-neutral-900 text-xl mt-5" style="font-family: SuisseIntl;  font-weight: 500;">All Subscribers</h1>
 
-
   <div class="mt-2">
-    <div class="overflow-x-auto shadow-md rounded-lg">
+    <div class="overflow-x-auto shadow-md rounded-lg max-h-60 overflow-y-scroll">
       <table class="min-w-full divide-y divide-neutral-200">
         <thead class="bg-sky-100">
           <tr>
@@ -28,21 +30,18 @@
           </tr>
         </thead>
         <tbody class="bg-white divide-y divide-neutral-100">
-          <tr class="hover:bg-sky-50">
-            <td class="px-6 py-4 text-neutral-800">Alex Anie</td>
-            <td class="px-6 py-4 text-neutral-800">alex@example.com</td>
-            <td class="px-6 py-4 text-neutral-800">2025-01-01</td>
-          </tr>
-          <tr class="hover:bg-sky-50">
-            <td class="px-6 py-4 text-neutral-800">Jane Doe</td>
-            <td class="px-6 py-4 text-neutral-800">jane@example.com</td>
-            <td class="px-6 py-4 text-neutral-800">2025-02-14</td>
-          </tr>
-          <tr class="hover:bg-sky-50">
-            <td class="px-6 py-4 text-neutral-800">John Smith</td>
-            <td class="px-6 py-4 text-neutral-800">john@example.com</td>
-            <td class="px-6 py-4 text-neutral-800">2025-03-30</td>
-          </tr>
+          <?php foreach($subscribers as $subscriber): ?>
+            <tr class="hover:bg-sky-50">
+              <td class="px-6 py-4 text-neutral-800">
+                <?php
+                  $email = explode('@', htmlspecialchars($subscriber['email']));
+                  echo $email[0];
+                ?>
+              </td>
+              <td class="px-6 py-4 text-neutral-800"><?= htmlspecialchars($subscriber['email'])?></td>
+              <td class="px-6 py-4 text-neutral-800"><?=htmlspecialchars(date_format(date_create($subscriber['Date']), 'Y/M/l'))?></td>
+            </tr>
+            <?php endforeach; ?>
         </tbody>
       </table>
     </div>
