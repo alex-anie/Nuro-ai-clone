@@ -1,6 +1,6 @@
 <main>
     <section>
-        <!-- <?php require 'partials/dashboardnav.php' ?> -->
+        <?php require 'partials/dashboardnav.php' ?>
     </section>
 
     <section>
