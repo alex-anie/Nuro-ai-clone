@@ -16,5 +16,8 @@ router('/dashboard/blogs', 'views/dashboard/blogs.php');
 //Search
 router('/search-subscribers', 'views/dashboard/search-subscribe.php');
 
+//Delete
+router('/delete-subscribers', 'controllers/delete-subscribers.php');
+
 // Resolve the current URL
 resolve();
