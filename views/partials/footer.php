@@ -1,6 +1,5 @@
 <?php require_once '../controllers/footer-subscribe.php' ?>
 
-
 <?php 
     $footerLinks = [
         "1" => [ "name" => "Technology", "path" => "/technology"],
@@ -60,18 +59,18 @@
                 </li>
 
                 <?php foreach($socialLinks as $socials): ?>
-                <li class="w-fit">
-                    <a href="<?= $socials['path']?>" target="_blank" class="flex items-center gap-x-3 group">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="stroke-white w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear  lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
-                        <span style="font-family: SuisseIntl; font-weight: 200;" class="text-white text-xl"><?= $socials['name'] ?></span>
-                    </a>
-                </li>
+                    <li class="w-fit">
+                        <a href="<?= $socials['path']?>" target="_blank" class="flex items-center gap-x-3 group">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="stroke-white w-0 h-[24px] group-hover:w-[24px] transition-[width] duration-300 ease-linear  lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                            <span style="font-family: SuisseIntl; font-weight: 200;" class="text-white text-xl"><?= $socials['name'] ?></span>
+                        </a>
+                    </li>
                 <?php endforeach; ?>
             </ul>
         </aside>
 
         <aside class="mt-10 md:mt-0 col-span-3 md:col-span-1">
-            <form action="/subscribed" method="post">
+            <form action="" method="post">
                 <label for="email" style="font-family: SuisseIntl; font-weight: 200;" class="text-white text-xl">
                     Stay connected
                 </label>

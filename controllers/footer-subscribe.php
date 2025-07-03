@@ -15,11 +15,3 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         ]);
     }
 }
-
-$redirectBack = $_SERVER['HTTP_REFERER'] ?? '/';
-
-// var_dump($redirectBack);
-
-header("Location: $redirectBack");
-
-// exit;
