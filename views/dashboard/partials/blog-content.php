@@ -1,6 +1,6 @@
 <?php require_once '../controllers/get-subscribers.php'?>
 
-<main class="bg-neutral-50 px-10 pt-20 ">
+<main class="bg-neutral-50 px-10 pt-20">
         <!-- Latest at Nuro. -->
     <section class="">
         <article class="flex justify-between">
