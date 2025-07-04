@@ -10,7 +10,7 @@
             </aside>
 
             <aside class="w-[70%] md:w-[80%]">
-                <?php require 'partials/blog-content.php'?>
+                <?php require 'partials/create-blog.php'?>
             </aside>
         </article>
     </section>

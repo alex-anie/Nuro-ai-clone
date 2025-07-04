@@ -9,9 +9,10 @@ router('/solution', 'views/solution.php');
 router('/company', 'views/company.php');
 router('/blog', 'views/blog.php');
 
-// Download Pages
+// Dashboard Pages
 router('/dashboard/subscribes', 'views/dashboard/subscribe.php');
 router('/dashboard/blogs', 'views/dashboard/blogs.php');
+router('/dashboard/create-blog', 'views/dashboard/create-blog.php');
 
 //Search
 router('/search-subscribers', 'views/dashboard/search-subscribe.php');

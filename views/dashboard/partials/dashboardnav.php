@@ -9,7 +9,7 @@
 
         <aside>
             <div class="size-[30px] rounded-full border border-sky-600 p-[2px]">
-                <img src="assets/images/dashboard/lucas-grayman.jpg" alt="" class="size-full rounded-full object-cover object-center">
+                <img src="/assets/images/dashboard/lucas-grayman.jpg" alt="" class="size-full rounded-full object-cover object-center">
             </div>
         </aside>
 </nav>

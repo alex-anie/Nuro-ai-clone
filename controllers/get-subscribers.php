@@ -11,7 +11,6 @@ $db = new Database();
 //Get subscribers for current page
 $subscribers = $db->fetchAll("SELECT * FROM `subscribers` ORDER BY `id` DESC LIMIT $start, $page_limit");
 
-
 //Get total Count
 $all_subs = $db->fetchAll("SELECT * FROM `subscribers`");
 $number_of_subs = count($all_subs);

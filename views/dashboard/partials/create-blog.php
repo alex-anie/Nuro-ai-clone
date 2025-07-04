@@ -1,0 +1,1 @@
+<h2>Create a blog post</h2>
