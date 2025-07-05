@@ -2,10 +2,12 @@
 
 <main class="bg-neutral-50 px-10 pt-20">
     <section>
-        <form action="/dashboard/blogs" method="post">
+        
+        <form action="" method="post" enctype="multipart/form-data"> 
+            <!-- Images -->
             <aside class="relative w-full flex justify-center items-center">
                 <div class="w-full h-30 rounded-2xl mb-10">
-                    <img class="size-full rounded-2xl object-center object-cover" src="/assets/images/technology/contact-nuro-dark-large.png" alt="">
+                    <img class="size-full rounded-2xl object-center object-cover" id="createBlogImgPreview" src="" alt="">
                 </div>
     
                 <label class="absolute flex items-center gap-x-2 w-fit cursor-pointer hover:bg-sky-500 bg-sky-800 rounded-xl py-2 px-4" for="avatar">
@@ -14,15 +16,39 @@
                     <input class="w-0 invisible" type="file"  id="avatar" required name="avatar" accept="image/png, image/jpeg">
                 </label>
             </aside>
-            <?= $title ?>
-            <?= $content ?>
-            <?= $avatar ?>
 
+            <!-- Display all errors -->
+            <?php if(!empty($errors)):?>
+                <div class="text-red-600 text-[14px]" style="font-family: SuisseIntl; font-weight: 200;">
+                    <?php foreach($errors as $err): ?>
+                        <p><?= htmlspecialchars($err)?></p>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
+
+            <!-- input and textarea -->
             <aside class="w-full flex flex-col gap-y-6">
                 <input class="border outline-0 border-neutral-500 h-15 rounded-2xl px-4 text-xl text-neutral-600 focus:border focus:border-sky-500" type="text" required name="title" placeholder="Blog Title..."  value="<?= $title?>" style="font-family: SuisseIntl; font-weight: 200;"> 
-                <textarea class="pt-3 border outline-0 border-neutral-500 rounded-2xl px-4 text-xl text-neutral-600 focus:border focus:border-sky-500" required name="content" rows="10" cols="33" placeholder="create a blog post..." style="font-family: SuisseIntl; font-weight: 200;"><?= $content ?></textarea>
+                <textarea class="pt-2 border outline-0 border-neutral-500 rounded-2xl px-4 text-xl text-neutral-600 focus:border focus:border-sky-500" required name="content" rows="10" cols="33" placeholder="create a blog post..." style="font-family: SuisseIntl; font-weight: 200;"><?= $content ?></textarea>
                 <button class="cursor-pointer self-end hover:bg-sky-500 bg-sky-800 text-white py-2 px-4 rounded-2xl" style="font-family: SuisseIntl; font-weight: 200;">Submit</button>
             </aside>
         </form>
     </section>
 </main>
+
+<script>
+    function previewImage(event){
+        const fileInput = event.target;
+        const preview = document.getElementById('createBlogImgPreview');
+
+        const file = fileInput.files[0];
+        if(file){
+            const reader = new FileReader();
+            reader.onload = function(e){
+                preview.src = e.target.result;
+            }
+
+            reader.readAsDataURL(file);
+        }
+    }
+</script>

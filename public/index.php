@@ -16,4 +16,6 @@
   <body class="scroll-smooth">
       <?php require('../route.php'); ?>
   </body>
+
+  <script src="/js/create-blog.js"></script>
 </html>
