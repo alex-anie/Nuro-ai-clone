@@ -1,4 +1,6 @@
-<main class="w-[95%] mx-auto mt-0 md:mt-10">
+<?php require 'partials/head.php' ?>
+
+<main class="w-[95%] mx-auto mt-0 md:mt-10 pb-16">
     <!-- Navbar -->
     <section>
         <?php require('partials/navbar.php')?>
@@ -469,6 +471,4 @@
     </section>
 </main>
 
-<section class="mt-18">
-    <?php require('partials/footer.php') ?>
-</section>
+<?php require('partials/footer.php') ?>

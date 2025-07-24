@@ -3,22 +3,26 @@
 require_once 'core/router.php';
 
 //Pages
-router('/', 'views/home.php');
-router('/technology', 'views/technology.php');
-router('/solution', 'views/solution.php');
-router('/company', 'views/company.php');
-router('/blog', 'views/blog.php');
+router('/', 'controllers/home.php');
+router('/technology', 'controllers/technology.php');
+router('/solution', 'controllers/solution.php');
+router('/company', 'controllers/company.php');
+router('/blog', 'controllers/blog.php');
 
 // Dashboard Pages
-router('/dashboard/subscribes', 'views/dashboard/subscribe.php');
-router('/dashboard/blogs', 'views/dashboard/blogs.php');
-router('/dashboard/create-blog', 'views/dashboard/create-blog.php');
+router('/dashboard/subscribes', 'controllers/dashboard/index.php');
+router('/dashboard/blogs', 'controllers/dashboard/blogs.php');
+router('/dashboard/create-blog', 'controllers/dashboard/create-blog.php');
 
 //Search
-router('/search-subscribers', 'views/dashboard/search-subscribe.php');
+router('/search-subscribers', 'controllers/dashboard/search-subscribers.php');
 
 //Delete
-router('/delete-subscribers', 'controllers/delete-subscribers.php');
+router('/delete-subscribers', 'controllers/dashboard/delete-subscribers.php');
+
+//Insert User from footer
+router('/footer-subscriber', 'controllers/footer-subscribe.php');
 
 // Resolve the current URL
 resolve();
+

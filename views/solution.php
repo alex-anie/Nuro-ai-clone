@@ -1,3 +1,5 @@
+<?php require 'partials/head.php' ?>
+
 <?php 
     $multiText = [
         "1" => ["title" => "Scalable online mapping technology", "description" => "Built on our in-house geographic foundation model, delivering high-precision identification of road signs, crosswalks, lane restrictions, and right-of-way."],
@@ -42,7 +44,7 @@
     }
     }
 </style>
-<div id="site-wrapper" class="bg-neutral-800">
+<div id="site-wrapper" class="bg-neutral-800 pb-16">
 <main class="w-[95%] mx-auto mt-0 md:pt-10">
     <!-- Navbar -->
     <section>
@@ -286,7 +288,5 @@
     </section>
 </main>
 
-<section class="pt-18">
-    <?php require('partials/footer.php') ?>
-</section>
 </div>
+ <?php require('partials/footer.php') ?>

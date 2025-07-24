@@ -1,5 +1,3 @@
-<?php require_once '../controllers/footer-subscribe.php' ?>
-
 <?php 
     $footerLinks = [
         "1" => [ "name" => "Technology", "path" => "/technology"],
@@ -70,7 +68,7 @@
         </aside>
 
         <aside class="mt-10 md:mt-0 col-span-3 md:col-span-1">
-            <form action="" method="post">
+            <form action="/footer-subscriber" method="post">
                 <label for="email" style="font-family: SuisseIntl; font-weight: 200;" class="text-white text-xl">
                     Stay connected
                 </label>
@@ -108,3 +106,7 @@
         </aside>
     </section>
 </footer>
+</body>
+
+  <script src="/js/create-blog.js"></script>
+</html>

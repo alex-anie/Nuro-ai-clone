@@ -15,3 +15,13 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         ]);
     }
 }
+
+// Redirect back to where the user came from
+if(!empty($_SERVER['HTTP_REFERER'])){
+    header("Location: ". $_SERVER['HTTP_REFERER']);
+
+    exit;
+}else {
+    header("Location: /dashboard/subscribes");
+    exit;
+}

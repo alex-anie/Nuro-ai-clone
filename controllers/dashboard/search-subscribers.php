@@ -17,3 +17,5 @@ if(isset($_POST['search'])){
         ['search' => "%$search%"]
     );
 }
+
+require '../views/dashboard/search-subscribe.php';

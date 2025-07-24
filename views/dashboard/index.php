@@ -1,3 +1,4 @@
+<?php require 'partials/head.php'?>
 <main>
     <section>
         <?php require 'partials/dashboardnav.php' ?>
@@ -15,3 +16,5 @@
         </article>
     </section>
 </main>
+
+<?php require 'partials/footer.php' ?>

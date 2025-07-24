@@ -1,4 +1,3 @@
-<?php require_once '../controllers/create-blog.php' ?>
 
 <main class="bg-neutral-50 px-10 pt-20">
     <section>
@@ -7,7 +6,8 @@
             <!-- Images -->
             <aside class="relative w-full flex justify-center items-center">
                 <div class="w-full h-30 rounded-2xl mb-10">
-                    <img class="size-full rounded-2xl object-center object-cover" id="createBlogImgPreview" src="" alt="">
+                    <!-- <img class="size-full rounded-2xl object-center object-cover" id="createBlogImgPreview" src="" alt=""> -->
+                    <!-- You need to implement javaScript here to work on this image -->
                 </div>
     
                 <label class="absolute flex items-center gap-x-2 w-fit cursor-pointer hover:bg-sky-500 bg-sky-800 rounded-xl py-2 px-4" for="avatar">
@@ -37,18 +37,5 @@
 </main>
 
 <script>
-    function previewImage(event){
-        const fileInput = event.target;
-        const preview = document.getElementById('createBlogImgPreview');
-
-        const file = fileInput.files[0];
-        if(file){
-            const reader = new FileReader();
-            reader.onload = function(e){
-                preview.src = e.target.result;
-            }
-
-            reader.readAsDataURL(file);
-        }
-    }
+   
 </script>

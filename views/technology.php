@@ -1,3 +1,5 @@
+<?php require 'partials/head.php' ?>
+
 <style>
     @keyframes spinConic {
     0% {
@@ -323,8 +325,6 @@
         </article>
     </section>
 </main>
-
-<section class="pt-18">
-    <?php require('partials/footer.php') ?>
-</section>
 </div>
+
+ <?php require('partials/footer.php') ?>

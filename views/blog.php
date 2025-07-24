@@ -1,6 +1,7 @@
+<?php require 'partials/head.php' ?>
 <?php require '../models/faqs.php'?>
 
-<main class="w-[95%] mx-auto mt-0 md:mt-10">
+<main class="w-[95%] mx-auto mt-0 md:mt-10 mb-16">
     <!-- Navbar -->
     <section>
         <?php require('partials/navbar.php')?>
@@ -135,6 +136,4 @@
 
     </main>
 
-<section class="mt-18">
-    <?php require('partials/footer.php') ?>
-</section>
+<?php require('partials/footer.php') ?>
